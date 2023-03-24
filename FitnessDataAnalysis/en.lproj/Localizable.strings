@@ -1,0 +1,186 @@
+/* 
+  Localizable.strings
+  FitnessDataAnalysis
+
+  Created by 十口V🌼 on 2023/2/26.
+  
+*/
+
+"Welcome" = "Welcome to Beijing";
+"hello" = "Hello, world!";
+"ok" = "OK!";
+
+
+// 配速结果
+"paceInit" = "mins : secs";
+// 距离单位
+"distanceUnit" = "Distance Unit";
+// 距离
+"distance" = "Distance";
+
+// 距离单位菜单
+= "KM";
+"distanceUnitMile" = "Miles";
+"distance1500M" = "1500M";
+"distance800M" = "800M";
+
+"distance400M" = "400M";
+"distance200M" = "200M";
+"paceUnitUnit" = "Pace Unit";
+
+"distanceUnitM" = "Meters";
+"distanceUnitDefault" = "Kilometers";
+"distanceUnitDefaultAb" = "KM";
+"pace" = "Pace (Mins)";
+
+"learnPaceCalcSubTitle1" = "Why Use a Pace Calculator?";
+
+"learnPaceCalcSubTitle1Content" =  "A pace calculator can help you determine how long it will take to walk or run a certain distance. Tracking your pace and how it changes over time can help you gauge your performance and see if your fitness efforts are paying off.
+
+You may need to know your pace when registering for an event or race such as a 5K, 10K, half marathon, or marathon. You can use our pace and distance calculator or do the math yourself.";
+"paceMinUnit" = "mins";
+"paceSecUnit" = "secs";
+
+// 用户偏好设置 距离单位
+/*
+"userPreferenceDistanceUnit" = "Running Distance Unit";
+"userPreferenceDistanceUnitKM" = "Kilometers";
+"userPreferenceDistanceUnitMile" = "Mile";
+"userPreferenceDistanceUnitM" = "Meter";
+*/
+"generalSec" = "General";
+
+
+"runningFrequencyMessageP1" = "You have trained for running on ";
+
+"runningFrequencyMessageP2" = " days in the most recent 12 months (including this month). The following is an overview of each training distance.";
+
+
+// 交互按钮的提示
+"interactionVC_TitleOn" = "The chart interaction mode is turned on";
+"interactionVC_TitleOff" = "The chart interaction mode is turned off";
+"interactionVC_Message" = "You can toggle the interaction state by pressing the button again.";
+"interactionVC_buttonTitle" = "Okay, I got it👌";
+"interactionVC_noTips" = "No more tips😜";
+
+// 关于跑步距离-配速的说明
+"aboutPaceTitle" = "About Pace";
+"aboutPaceContent" = "The vertical coordinates of this scatter plot are the rationing speed and the time units are minutes (with decimal parts). For example, 4.4 min/km is equivalent to 4 min (0.4 × 60 = 24) sec/km.";
+
+
+
+// pie chart中的name - 跑步次数
+"pieNumRuns" = "The number of runs";
+
+
+
+// 提醒用户打开Workout type权限
+
+"openWorkoutTitle" = "Please turn on the Workout permission";
+"openWorkoutMessage" = "Health → Sharing → APP → Footprints → Turn on Workouts";
+"openWorkoutAction" = "OK, I got it";
+
+
+// 日期的“至”
+"dateTo" = " to ";
+"donedone" = "Done";
+"cancelcancel" = "Cancel";
+"selectDateRange" = "Select Date Range";
+"selectDate" = "Select Date";
+"dateLastWeek" = "Last Week";
+"dateToday" = "Today";
+"dateLastMonth" = "Last Month";
+"dateYesterday" = "Yesterday";
+"dateTomorrow" = "Tomorrow";
+
+/*设置*/
+// 标题
+"headerPersonalInfomation" = "Personal Infomation";
+"headerGeneral" = "General";
+
+/*设置*/
+// 具体内容
+// ------------------通用--------------------
+// APP语言
+"appLanguage" = "Language";
+"appLanguageFollow" = "Automatic";
+"appLanguageEN" = "English";
+"appLanguageCN" = "中文";
+
+
+// 测量单位
+"measureDistanceUnit" = "Measurement Units";
+"measureDistanceUnitKM" = "Kilometer";
+"measureDistanceUnitMile" = "Mile";
+"measureDistanceUnitMeter" = "Meter";
+
+// 外观
+"appAppearance" = "Appearance";
+"appAppearanceAutomatic" = "Automatic";
+"appAppearanceLight" = "Light Mode";
+"appAppearanceDark" = "Dark Mode";
+
+// ------------------个人信息--------------------
+"aboutYou" = "About You";
+
+
+
+/*       日期选择器        */
+// 选择范围
+"datePickerChooseDateRange" = "Choose Date Range";
+
+
+/* 记录上一次查询*/
+"recordLastQuery" = "Remember the Last Query";
+/*图表交互模式Chart interaction*/
+"dataChartInteraction" = "Chart Interaction";
+
+
+// -------------- 数据 -----------------
+// 1. 数据收集及用途
+// 2. 隐私与安全
+"dataInSetting" = "Data";
+"dataCollectionAndUsage" = "Data Collection and Usage";
+"dataPrivacyAndSecurity" = "Privacy and Security";
+
+// -------------- 其他 ------------------
+"otherInSetting" = "Other";
+"otherInSettingAboutUs" = "About Us";
+
+
+
+// 第一个正方形指标的选项菜单
+"indicator_1_title" = "Indicator Options";
+"indicator_1_highlighted" = "Pace";
+"indicator_1_pace" = "Pace";
+"indicator_1_action2" = "A2";
+
+
+// 第二个正方形指标的选项菜单
+"indicator_2_hr" = "Heart Rate";
+"indicator_2_action2" = "A2";
+
+
+"todayComeOn" = "Go for it!👐";
+
+"getWorkoutData" = "Workout Data";
+
+
+"monthlyStat" = "Monthly";
+
+"yearlyStat" = "Yearly";
+
+"cicleProgressHint" = " completed, go for it!";
+
+"validValHint_v001" = "Please enter a valid value 😋 Unit: ";
+"targetVolTextFieldMessage" = "You can change the measurement units in the settings";
+
+"targetVolTextFieldTitle" = "Modify your target run volume";
+"targetVolTextFieldCancel" = "Cancel";
+"targetVolTextFieldSave" = "Save";
+
+
+
+"noRunRecordsP0" = "No running training in ";
+
+"noRunRecordsP1" = "";

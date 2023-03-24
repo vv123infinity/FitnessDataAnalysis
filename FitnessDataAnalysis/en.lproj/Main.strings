@@ -1,0 +1,142 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "4OJ-Ub-4Bg"; */
+"4OJ-Ub-4Bg.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "K9F-DV-hyS"; */
+"K9F-DV-hyS.text" = "Detail";
+
+/* Class = "UITabBarItem"; title = "Setting"; ObjectID = "Tie-jc-TGd"; */
+"Tie-jc-TGd.title" = "Settings";
+
+/* Class = "UIButton"; configuration.title = "Load Running Data"; ObjectID = "YRA-F3-ed6"; */
+"YRA-F3-ed6.configuration.title" = "Load Running Data";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YRA-F3-ed6"; */
+"YRA-F3-ed6.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Authorize"; ObjectID = "ate-pA-rfp"; */
+"ate-pA-rfp.configuration.title" = "Authorize";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ate-pA-rfp"; */
+"ate-pA-rfp.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Plot"; ObjectID = "gcR-jH-S3Z"; */
+"gcR-jH-S3Z.configuration.title" = "Plot";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gcR-jH-S3Z"; */
+"gcR-jH-S3Z.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Tab1"; ObjectID = "gkM-1g-M9s"; */
+"gkM-1g-M9s.title" = "Running Overview";
+
+/* Class = "UINavigationItem"; title = "Fitness Data Analysis"; ObjectID = "uJw-FP-UWa"; */
+"uJw-FP-UWa.title" = "Running Overview";
+
+/* Class = "UIButton"; configuration.title = "Test Sign In with Apple"; ObjectID = "vma-Hw-eIE"; */
+"vma-Hw-eIE.configuration.title" = "Test Sign In with Apple";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vma-Hw-eIE"; */
+"vma-Hw-eIE.normalTitle" = "Button";
+
+
+// Tool
+"QZE-13-Do9.title" = "Tool";
+"99Y-IM-gFV.title" = "Tool";
+"b5P-yx-0h7.normalTitle" = "Pace Calculator";
+"bhf-08-duU.title" = "Pace Calculator";
+
+
+
+
+"gBt-jk-R2j.text" = "mins : secs";
+
+
+"PdG-af-6dL.text" = "Distance";
+"RfC-qM-faD.text" = "Time";
+"9ZO-YN-tiy.text" = "Pace";
+"Mvi-v2-gWf.text" = "per";
+"0LE-iY-57y.placeholder" = "hours";
+"lLg-Uf-HBK.placeholder" = "minutes";
+"gbk-OE-XsF.placeholder" = "seconds";
+"Uoj-hB-F19.normalTitle" = "Kilometers";
+"sbs-ZJ-axO.configuration.title" = "Convert";
+"8wb-oa-AYn.configuration.title" = "Pace Calculator";
+"yrf-vG-0Ry.title" = "Settings";
+
+
+
+// 最近十二个月跑步概况
+"lPV-Y7-Gbm.title" = "Overview";
+"6Fe-c2-HIA.text" = "Total Run Volume";
+//".text" = "Total Run Volume";
+"ApG-Xr-nFO.text" = "Single Run Distance Profile";
+"sZb-ft-qK4.text" = "Running Distance and Pace";
+"aKk-QW-cw3.configuration.title" = "Done";
+"Jxw-gO-wKA.configuration.title" = "Done";
+
+
+// 本月情况
+// 总跑量
+"j9f-Uc-exc.text" = "Total Run Volume";
+"zvf-FT-9Un.text" = "Tap on the chart to view the date and distance of your running training.";
+
+
+
+//"UN1-Rr-Int.title" = "Done";
+//"lc7-io-KVS.title" = "Done";
+
+"ha1-zp-K5J.text" = "Show More";
+
+
+//"tif-Kh-tUT.text" = "Monthly Running Volume";
+"5xv-PQ-ClF.text" = "Recent Week";
+"nov-Oy-dCU.text" = "Today";
+
+"tif-Kh-tUT.text" = "Statistics";
+"DT2-xQ-0xh.text" = "Monthly Run Volume";
+"fOz-M0-uV7.title" = "Settings";
+
+"lvs-KM-Gki.title" = "Statistics";
+
+
+//MARK: - 数据统计Overview
+// 各项指标
+"Zww-er-Ezm.text" = "Accumulated Mileage";
+"4qH-vU-rCJ.text" = "Number of Runs";
+
+
+"pvC-0i-xyn.text" = "Average Pace";
+"l8f-zf-GpZ.text" = "Accumulated Time";
+
+"JeQ-RL-iHK.text" = "Longest Distance";
+"h0l-qC-WY9.text" = "Fastest Pace";
+// 单次跑步最快配速
+
+"88e-MB-urm.text" = "Overview";
+
+// Whether to focus on calories
+"o01-4o-Vl6.text" = "Whether to focus on calories";
+"m2f-Tb-Ghy.text" = "Whether to use the Smiley Sans font";
+"r9l-1D-UCN.text" = "Smiley Sans is a modern narrow italic that finds visual balance between humanistic perception and geometric features.";
+"cux-Az-f4A.configuration.title" = "Nonuse";
+
+"OyD-fi-1TI.configuration.title" = "Use";
+"jeU-Ox-eg2.text" = "Health Data";
+"ij8-yY-HX3.text" = "Great";
+"wV9-Xi-wrr.configuration.title" = "Agree to Privacy Policy";
+
+"k7x-UL-X2I.configuration.title" = "Get Health Data";
+"37b-X8-AuH.configuration.title" = "Next";
+"PK3-9h-TjG.configuration.title" = "Next";
+"SeX-H8-4vY.configuration.title" = "Getting Started";
+
+"whd-qX-Ppk.text" = "Welcome to 步步Run心田";
+"ZVb-mk-lrm.configuration.title" = "Skip now";
+"f5H-2I-D7c.text" = "Modify monthly run target";
+
+
+"uHx-lu-ovX.configuration.title" = "Done";
+
+"MAN-t2-CWS.text" = "We take the privacy and security of our users very seriously and it is our responsibility to protect their personal information.This application does not store health data from Health in a persistent manner.
+
+If you still have concerns, you can disconnect from the network to run this application.";

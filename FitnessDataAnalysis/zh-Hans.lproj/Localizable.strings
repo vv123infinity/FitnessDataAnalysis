@@ -1,0 +1,170 @@
+/*
+  Localizable.strings
+  FitnessDataAnalysis
+
+  Created by 十口V🌼 on 2023/2/26.
+  
+*/
+
+"Welcome" = "北京欢迎你";
+"hello" = "你好，世界！";
+"ok" = "已阅";
+
+
+// 配速结果
+"paceInit" = "分 : 秒";
+// 距离
+"distance" = "距离";
+
+"distanceUnit" = "距离单位";
+"distanceUnitKM" = "公里";
+"distanceUnitMile" = "英里";
+"distance1500M" = "1500米";
+"distance800M" = "800米";
+
+"distance400M" = "400米";
+"distance200M" = "200米";
+
+"distanceUnitM" = "米";
+"paceUnitUnit" = "配速单位";
+
+// 默认值会根据
+"distanceUnitDefault" = "公里";
+"distanceUnitDefaultAb" = "KM";
+
+"pace" = "配速（分）";
+"learnPaceCalcSubTitle1" = "为什么使用配速计算器？";
+"learnPaceCalcSubTitle1Content" = "配速计算器可以帮助你确定走或跑一段距离需要多长时间。追踪你的配速以及它随时间的变化可以帮助你衡量你的表现，看看你的健身努力是否得到了回报。
+
+在报名参加活动或比赛（如5公里、10公里、半程马拉松或马拉松）时，你可能需要知道你的配速。你可以使用我们的速度和距离计算器或自己计算。";
+
+
+"paceMinUnit" = "分";
+"paceSecUnit" = "秒";
+
+
+// 用户偏好设置 距离单位
+/*
+"userPreferenceDistanceUnit" = "跑步距离单位";
+"userPreferenceDistanceUnitKM" = "公里";
+"userPreferenceDistanceUnitMile" = "英里";
+"userPreferenceDistanceUnitM" = "米";
+*/
+
+"generalSec" = "通用";
+"runningFrequencyMessageP1" = "在最近的12个月中（含本月），你有";
+
+"runningFrequencyMessageP2" = "天进行了跑步训练。以下是各次训练距离的概况。";
+
+"interactionVC_TitleOn" = "已打开图表交互模式";
+"interactionVC_TitleOff" = "已关闭图表交互模式";
+"interactionVC_Message" = "你可以通过再次点击按钮来切换交互状态。";
+"interactionVC_buttonTitle" = "已阅👌";
+
+"interactionVC_noTips" = "不再提示😜";
+"aboutPaceTitle" = "关于配速";
+"aboutPaceContent" = "该散点图的纵坐标为配速，时间单位为分钟（含小数部分）。例如，4.4分/公里等效于4分 (0.4×60=24)秒/公里。";
+
+// pie chart中的name - 跑步次数
+"pieNumRuns" = "跑步次数";
+
+
+"openWorkoutTitle" = "请打开体能训练权限";
+"openWorkoutMessage" = "健康 → 共享 → APP → 步步Run心田 → 打开体能训练";
+"openWorkoutAction" = "好的";
+"dateTo" = " 至 ";
+
+"donedone" = "完成";
+"cancelcancel" = "取消";
+"selectDateRange" = "选择日期范围";
+"selectDate" = "选择日期";
+"dateLastWeek" = "上周";
+"dateToday" = "今天";
+"dateLastMonth" = "上个月";
+"dateYesterday" = "昨天";
+"dateTomorrow" = "明天";
+/*设置标题*/
+//
+"headerPersonalInfomation" = "个人信息";
+"headerGeneral" = "通用";
+
+/*设置内容*/
+// ------------------通用--------------------
+// APP语言
+"appLanguage" = "语言";
+"appLanguageFollow" = "跟随系统";
+"appLanguageEN" = "English";
+"appLanguageCN" = "中文";
+
+
+// 测量单位
+"measureDistanceUnit" = "测量单位";
+"measureDistanceUnitKM" = "公里";
+"measureDistanceUnitMile" = "英里";
+"measureDistanceUnitMeter" = "米";
+
+
+// 外观
+"appAppearance" = "外观";
+"appAppearanceAutomatic" = "跟随系统";
+"appAppearanceLight" = "浅色模式";
+"appAppearanceDark" = "深色模式";
+
+// ------------------个人信息--------------------
+"aboutYou" = "关于你";
+/*       日期选择器        */
+// 选择范围
+"datePickerChooseDateRange" = "选择日期范围";
+
+/*记录上一次查询*/
+"recordLastQuery" = "记住上一次查询";
+/*图表交互模式Chart interaction*/
+"dataChartInteraction" = "图表交互";
+
+// -------------- 数据 -----------------
+// 1. 数据收集及用途
+// 2. 隐私与安全
+"dataInSetting" = "数据";
+"dataCollectionAndUsage" = "数据收集及用途";
+"dataPrivacyAndSecurity" = "隐私与安全";
+
+
+// -------------- 其他 ------------------
+"otherInSetting" = "其他";
+"otherInSettingAboutUs" = "关于我们";
+
+// 第一个正方形指标的选项菜单
+"indicator_1_title" = "指标选项";
+"indicator_1_highlighted" = "配速";
+"indicator_1_pace" = "配速";
+"indicator_1_action2" = "选项2";
+
+// 第二个正方形指标的选项菜单
+"indicator_2_hr" = "心率";
+"indicator_2_action2" = "选项2";
+
+
+"todayComeOn" = "冲鸭！🌟";
+"getWorkoutData" = "同步体能训练";
+
+
+"monthlyStat" = "每月";
+
+"yearlyStat" = "每年";
+
+"cicleProgressHint" = "已完成，加油💪🏻";
+
+"validValHint_v001" = "请输入一个有效值😋 单位：";
+"targetVolTextFieldTitle" = "修改你的目标跑量";
+"targetVolTextFieldMessage" = "你可以在设置中修改测量单位";
+
+"targetVolTextFieldCancel" = "取消";
+"targetVolTextFieldSave" = "保存";
+
+"noRunRecordsP0" = "真遗憾！你在 ";
+
+"noRunRecordsP1" = " 未进行体能训练";
+
+
+
+

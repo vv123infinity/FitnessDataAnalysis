@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sec0PersonalInfo</key>
+	<string>个人信息</string>
+	<key>sec0PersonalInfoArray</key>
+	<array>
+		<string>关于你</string>
+	</array>
+	<key>sec3OtherArray</key>
+	<array>
+		<string>关于我们</string>
+	</array>
+	<key>sec3Other</key>
+	<string>其他</string>
+	<key>sec2DataArray</key>
+	<array>
+		<string>同步体能训练数据</string>
+		<string>数据收集及用途</string>
+		<string>隐私与安全</string>
+	</array>
+	<key>sec2Data</key>
+	<string>数据</string>
+	<key>sec1GeneralArray</key>
+	<array>
+		<string>测量单位</string>
+		<string>记住上一次查询</string>
+		<string>图表交互</string>
+	</array>
+	<key>sec1General</key>
+	<string>通用</string>
+	<key>generalChoicesList</key>
+	<array>
+		<string>公里 (KM)</string>
+		<string>英里 (Mile)</string>
+	</array>
+</dict>
+</plist>

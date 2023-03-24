@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sec0PersonalInfo</key>
+	<string>Personal Infomation</string>
+	<key>sec0PersonalInfoArray</key>
+	<array>
+		<string>About You</string>
+	</array>
+	<key>sec1General</key>
+	<string>General</string>
+	<key>sec1GeneralArray</key>
+	<array>
+		<string>Measurement Units</string>
+		<string>Remember the Last Query</string>
+		<string>Chart Interaction</string>
+	</array>
+	<key>sec2Data</key>
+	<string>Data</string>
+	<key>sec2DataArray</key>
+	<array>
+		<string>Workout Data</string>
+		<string>Data Collection and Usage</string>
+		<string>Privacy and Security</string>
+	</array>
+	<key>sec3Other</key>
+	<string>Other</string>
+	<key>sec3OtherArray</key>
+	<array>
+		<string>About Us</string>
+	</array>
+	<key>generalChoicesList</key>
+	<array>
+		<string>Kilometer (KM)</string>
+		<string>Mile</string>
+	</array>
+</dict>
+</plist>

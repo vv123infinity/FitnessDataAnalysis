@@ -1,0 +1,146 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "4OJ-Ub-4Bg"; */
+"4OJ-Ub-4Bg.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "K9F-DV-hyS"; */
+"K9F-DV-hyS.text" = "Detail";
+
+/* Class = "UITabBarItem"; title = "Setting"; ObjectID = "Tie-jc-TGd"; */
+"Tie-jc-TGd.title" = "设置";
+
+/* Class = "UIButton"; configuration.title = "Load Running Data"; ObjectID = "YRA-F3-ed6"; */
+"YRA-F3-ed6.configuration.title" = "Load Running Data";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YRA-F3-ed6"; */
+"YRA-F3-ed6.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Authorize"; ObjectID = "ate-pA-rfp"; */
+"ate-pA-rfp.configuration.title" = "认证";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ate-pA-rfp"; */
+"ate-pA-rfp.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Plot"; ObjectID = "gcR-jH-S3Z"; */
+"gcR-jH-S3Z.configuration.title" = "跑步数据可视化";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gcR-jH-S3Z"; */
+"gcR-jH-S3Z.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Tab1"; ObjectID = "gkM-1g-M9s"; */
+"gkM-1g-M9s.title" = "跑步概要";
+
+/* Class = "UINavigationItem"; title = "Fitness Data Analysis"; ObjectID = "uJw-FP-UWa"; */
+"uJw-FP-UWa.title" = "跑步概要";
+
+/* Class = "UIButton"; configuration.title = "Test Sign In with Apple"; ObjectID = "vma-Hw-eIE"; */
+"vma-Hw-eIE.configuration.title" = "Test Sign In with Apple";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vma-Hw-eIE"; */
+"vma-Hw-eIE.normalTitle" = "Button";
+// Tool
+"QZE-13-Do9.title" = "实用工具";
+
+"99Y-IM-gFV.title" = "实用工具";
+
+"b5P-yx-0h7.normalTitle" = "配速计算器";
+
+"bhf-08-duU.title" = "配速计算器";
+
+
+
+"gBt-jk-R2j.text" = "分：秒";
+"PdG-af-6dL.text" = "距离";
+
+"RfC-qM-faD.text" = "时间";
+"9ZO-YN-tiy.text" = "配速";
+
+"Mvi-v2-gWf.text" = "每";
+
+"0LE-iY-57y.placeholder" = "时";
+"lLg-Uf-HBK.placeholder" = "分";
+"gbk-OE-XsF.placeholder" = "秒";
+
+"Uoj-hB-F19.normalTitle" = "公里";
+"sbs-ZJ-axO.configuration.title" = "转换";
+"8wb-oa-AYn.configuration.title" = "配速计算器";
+
+"yrf-vG-0Ry.title" = "设置";
+
+
+
+// 最近十二个月跑步概况
+"lPV-Y7-Gbm.title" = "近12个月跑步概况";
+"6Fe-c2-HIA.text" = "总跑量";
+"ApG-Xr-nFO.text" = "单次跑步距离概况";
+"sZb-ft-qK4.text" = "跑步距离与配速";
+"aKk-QW-cw3.configuration.title" = "完成";
+"Jxw-gO-wKA.configuration.title" = "完成";
+
+// 本月
+"j9f-Uc-exc.text" = "总跑量";
+"zvf-FT-9Un.text" = "点按图表以查看跑步训练的日期和距离。";
+
+
+
+
+//"UN1-Rr-Int.title" = "完成";
+//"lc7-io-KVS.title" = "完成";
+
+
+"ha1-zp-K5J.text" = "显示更多";
+
+//"tif-Kh-tUT.text" = "月跑量";
+"5xv-PQ-ClF.text" = "近一周";
+"nov-Oy-dCU.text" = "今天";
+
+
+"tif-Kh-tUT.text" = "数据统计";
+"DT2-xQ-0xh.text" = "月跑量";
+"fOz-M0-uV7.title" = "设置";
+"lvs-KM-Gki.title" = "数据统计";
+
+//MARK: - 数据统计Overview
+// 各项指标
+
+"Zww-er-Ezm.text" = "累计里程";
+"4qH-vU-rCJ.text" ="跑步次数";
+
+
+"pvC-0i-xyn.text" = "平均配速";
+"l8f-zf-GpZ.text" = "累计时长";
+
+"JeQ-RL-iHK.text" = "单次跑步最远距离";
+"h0l-qC-WY9.text" = "单次跑步最快平均配速";
+
+
+"88e-MB-urm.text" = "概要";
+
+"o01-4o-Vl6.text" = "是否关注卡路里";
+//
+"m2f-Tb-Ghy.text" = "是否使用得意黑字体";
+"r9l-1D-UCN.text" = "得意黑是一款在人文观感和几何特征中寻找视觉平衡的现代窄斜体。";
+"cux-Az-f4A.configuration.title" = "不使用";
+
+"OyD-fi-1TI.configuration.title" = "使用";
+"jeU-Ox-eg2.text" = "健康数据";
+"wV9-Xi-wrr.configuration.title" = "同意隐私政策";
+
+"ij8-yY-HX3.text" = "太棒了";
+
+"k7x-UL-X2I.configuration.title" = "同步健康数据";
+"37b-X8-AuH.configuration.title" = "下一步";
+"PK3-9h-TjG.configuration.title" = "下一步";
+"SeX-H8-4vY.configuration.title" = "开始使用";
+
+"whd-qX-Ppk.text" = "欢迎来到步步Run心田";
+"ZVb-mk-lrm.configuration.title" = "现在跳过";
+
+
+"f5H-2I-D7c.text" = "修改月跑量目标";
+
+"uHx-lu-ovX.configuration.title" = "完成";
+
+"MAN-t2-CWS.text" = "我们十分重视用户的隐私安全，保护用户的个人信息是我们应尽的责任。本应用不会对来自健康中的健康数据进行持久化存储。
+
+如果你仍有担忧，可以断开网络运行此应用。";
+

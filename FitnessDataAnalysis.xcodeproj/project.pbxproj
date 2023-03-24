@@ -162,7 +162,7 @@
 		5E4E9FF929B9F83D0066D83C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		5E4ED78B29B18F3E00BEC0E7 /* TestUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUnit.swift; sourceTree = "<group>"; };
 		5E4ED78D29B1AD7900BEC0E7 /* IOHelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOHelperMethods.swift; sourceTree = "<group>"; };
-		5E9E10AD29A86ACE00318AB5 /* FitnessDataAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessDataAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9E10AD29A86ACE00318AB5 /* FitnessDataAnalysisAubreyGu123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessDataAnalysisAubreyGu123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9E10B029A86ACE00318AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E9E10B229A86ACE00318AB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5E9E10B429A86ACE00318AB5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -376,7 +376,7 @@
 		5E9E10AE29A86ACE00318AB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E9E10AD29A86ACE00318AB5 /* FitnessDataAnalysis.app */,
+				5E9E10AD29A86ACE00318AB5 /* FitnessDataAnalysisAubreyGu123.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -605,7 +605,7 @@
 				79C7D39429C75A42001A9DAC /* MKRingProgressView */,
 			);
 			productName = FitnessDataAnalysis;
-			productReference = 5E9E10AD29A86ACE00318AB5 /* FitnessDataAnalysis.app */;
+			productReference = 5E9E10AD29A86ACE00318AB5 /* FitnessDataAnalysisAubreyGu123.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -929,7 +929,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FitnessDataAnalysis/FitnessDataAnalysis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = CU5Y298C2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FitnessDataAnalysis/Info.plist;
@@ -950,7 +950,7 @@
 				);
 				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "Aubrey-Gu.FitnessDataAnalysis";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FitnessDataAnalysisAubreyGu123;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -967,7 +967,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FitnessDataAnalysis/FitnessDataAnalysis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = CU5Y298C2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FitnessDataAnalysis/Info.plist;
@@ -988,7 +988,7 @@
 				);
 				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "Aubrey-Gu.FitnessDataAnalysis";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FitnessDataAnalysisAubreyGu123;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

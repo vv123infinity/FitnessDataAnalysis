@@ -13,6 +13,15 @@ class WelcomeNav: UINavigationController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "AboutPrivacyViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        self.navigationItem.backBarButtonItem = backItem
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        
     }
     
 

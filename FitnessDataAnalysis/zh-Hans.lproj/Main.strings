@@ -30,7 +30,7 @@
 "gkM-1g-M9s.title" = "跑步概要";
 
 /* Class = "UINavigationItem"; title = "Fitness Data Analysis"; ObjectID = "uJw-FP-UWa"; */
-"uJw-FP-UWa.title" = "跑步概要";
+"uJw-FP-UWa.title" = "概要";
 
 /* Class = "UIButton"; configuration.title = "Test Sign In with Apple"; ObjectID = "vma-Hw-eIE"; */
 "vma-Hw-eIE.configuration.title" = "Test Sign In with Apple";
@@ -109,8 +109,8 @@
 "pvC-0i-xyn.text" = "平均配速";
 "l8f-zf-GpZ.text" = "累计时长";
 
-"JeQ-RL-iHK.text" = "单次跑步最远距离";
-"h0l-qC-WY9.text" = "单次跑步最快平均配速";
+"JeQ-RL-iHK.text" = "单次最远距离";
+"h0l-qC-WY9.text" = "单次最快平均配速";
 
 
 "88e-MB-urm.text" = "概要";
@@ -127,7 +127,7 @@
 
 "ij8-yY-HX3.text" = "太棒了";
 
-"k7x-UL-X2I.configuration.title" = "同步健康数据";
+"k7x-UL-X2I.configuration.title" = "下一步";
 "37b-X8-AuH.configuration.title" = "下一步";
 "PK3-9h-TjG.configuration.title" = "下一步";
 "SeX-H8-4vY.configuration.title" = "开始使用";
@@ -136,11 +136,120 @@
 "ZVb-mk-lrm.configuration.title" = "现在跳过";
 
 
-"f5H-2I-D7c.text" = "修改月跑量目标";
+
+"trp-ji-zXU.configuration.title" = "修改月跑量目标";
 
 "uHx-lu-ovX.configuration.title" = "完成";
 
-"MAN-t2-CWS.text" = "我们十分重视用户的隐私安全，保护用户的个人信息是我们应尽的责任。本应用不会对来自健康中的健康数据进行持久化存储。
+
+
+"sG4-8G-lMk.text" = "实际跑量";
+"GdL-dU-wSg.text" = "计划跑量";
+"3vY-lg-Egu.text" = "跑步日志";
+
+
+"61V-EQ-pAA.title" = "我的跑步日志";
+
+"svp-6l-EYg.configuration.title" = "跑步训练数据统计与分析";
+
+"YcU-wP-vBY.configuration.title" = "我的跑步日志";
+"nx0-il-paV.configuration.title" = "月跑量目标";
+"k8c-Bi-blM.configuration.title" = "每日跑步计划";
+"M8K-p9-0wv.text" = "距离步长";
+"vq1-Nz-mlP.text" = "距离步长";
+"Lt0-7c-v1V.text" = "月跑量目标";
+
+"oZl-bd-xG5.text" = "不能再减啦！！😥";
+
+
+"eoQ-bs-UqG.text" = "不能再减啦！！😥";
+"1xy-4z-jcJ.configuration.title" = "完成";
+
+"Rbq-4H-c8w.text" = "平均跑步功率";
+
+"lju-4n-X1D.text" = "平均步频";
+
+"DVd-b5-puI.configuration.title" = "修改日期范围";
+
+"8wb-oa-AYn.configuration.subtitle" = "计算您在马拉松、半程马拉松、10K等不同距离的跑步中的配速，多种配速单位可供选择！😋";
+
+"6uR-NB-QDA.configuration.title" = "AI运动实验室";
+"6uR-NB-QDA.configuration.subtitle" = "预测和匹配您的姿势，提供深蹲计数器。";
+"WrG-cj-3jB.text" = "复制成功！";
+
+
+"LlH-ZT-fvd.text" = "人体活动能量代谢是指人体活动所引起的营养物质氧化产生能量的过程，其消耗的能量称为活动能量消耗。";
+
+"MAN-t2-CWS.text" = "我们十分重视用户的隐私安全，保护用户的个人信息是我们应尽的责任。
 
 如果你仍有担忧，可以断开网络运行此应用。";
 
+
+"cHp-UT-mXL.text" = "隐私安全";
+
+"C4U-ae-Z2c.text" = "出生日期";
+
+"h9F-MT-DeC.text" = "用于计算年龄和心率区间";
+
+"TGF-oQ-E8v.text" = "身高和体重";
+"c4X-We-Q4h.text" = "用于了解你的基础身体数据，提升服务质量";
+"wBF-ZN-PAN.text" = "活动能量和心率";
+"JjW-da-2hy.text" = "用于更好地分析跑步数据分析";
+"bzK-IL-1za.text" = "体能训练";
+"CaR-iy-0si.text" = "用于获取跑步相关的数据，如跑步距离、跑步功率等";
+
+
+"Ool-HP-dJI.text" = "恭喜你！已经完成了所有基础配置，现在让我们一起探索吧~";
+
+
+"Qpf-iK-9yE.text" = "请注意，跑步功率来源于您的户外跑步记录。🏃🏃‍♀️";
+
+
+
+"Eea-uI-Gqn.text" = "平均心率";
+"QO1-uK-78G.text" = "动态千卡";
+
+
+"u60-Q9-ASD.placeholder" = "简单说点儿什么吧...";
+
+"Bgn-Fb-LS5.configuration.title" = "保存";
+"u8g-Aa-SHS.title" = "每日计划";
+
+"d3S-k2-ySl.text" = "日志详情";
+"Vc5-so-SO6.text" = "本月跑量";
+// Monthly run
+
+
+"JZ2-xl-xdH.configuration.subtitle" = "好极了";
+"7Tp-Ol-BrL.configuration.subtitle" = "一般吧";
+"4U9-Ve-eDx.configuration.subtitle" = "不太好";
+
+
+"bUf-Ps-xpH.configuration.title" = "取消";
+"dFH-zA-IOx.configuration.title" = "保存";
+/*
+ 热身区间    Warm Up Zone
+ 燃脂区间    Fat Burn Zone
+ 有氧区间    Aerobic Zone
+ 无氧区间    Anaerobic Zone
+ 极限    VO2 Max Zone
+
+ */
+
+"ghi-AT-T7J.text" = "打开健康App
+共享→App→全部打开";
+
+"79N-Qx-blI.configuration.subtitle" = "距离上一次跑步";
+
+"ZpD-i6-cyD.configuration.subtitle" = "距离第一次跑步";
+
+
+"miJ-6p-4hB.title" = "实用工具";
+
+
+"VBT-Cb-w25.title" = "姿势匹配Demo";
+
+"Ekh-R8-peN.text" = "请站在框内";
+
+
+"HE5-Mi-Q7r.title" = "数据统计";

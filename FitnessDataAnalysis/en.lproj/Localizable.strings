@@ -19,8 +19,8 @@
 "distance" = "Distance";
 
 // 距离单位菜单
-= "KM";
-"distanceUnitMile" = "Miles";
+"distanceUnitKM"= "KM";
+"distanceUnitMile" = "MI";
 "distance1500M" = "1500M";
 "distance800M" = "800M";
 
@@ -32,15 +32,43 @@
 "distanceUnitDefault" = "Kilometers";
 "distanceUnitDefaultAb" = "KM";
 "pace" = "Pace (Mins)";
+//无跑步训练呦~
+"noRunHint" = "---";
 
-"learnPaceCalcSubTitle1" = "Why Use a Pace Calculator?";
-
-"learnPaceCalcSubTitle1Content" =  "A pace calculator can help you determine how long it will take to walk or run a certain distance. Tracking your pace and how it changes over time can help you gauge your performance and see if your fitness efforts are paying off.
+"learnPaceCalcSubTitle0" = "Why Use a Pace Calculator?";
+"learnPaceCalcContent0" =  "A pace calculator can help you determine how long it will take to walk or run a certain distance. Tracking your pace and how it changes over time can help you gauge your performance and see if your fitness efforts are paying off.
 
 You may need to know your pace when registering for an event or race such as a 5K, 10K, half marathon, or marathon. You can use our pace and distance calculator or do the math yourself.";
-"paceMinUnit" = "mins";
-"paceSecUnit" = "secs";
 
+"learnPaceCalcSubTitle1" = "Running Pace Calculator";
+"learnPaceCalcContent1" =  "Your pace is expressed in minutes per mile or minutes per kilometer. This is the time it would take you to walk or run 1 mile or 1 kilometer.
+
+To calculate your pace, you will need to know the distance you have walked or run, and the time it took you to do so.
+
+Pace = Time / Distance
+
+";
+
+"learnPaceCalcSubTitle2" = "Running Pace Classification";
+"paceAnalysis" = "Pace Analysis";
+"learnPaceCalcContent2" =  "Exercise intensity is defined by the amount of energy required for the performance of the physical activity per unit of time.
+
+You can use the pace to measure the intensity of your exercise. For example, the pace intensity level might look like this:
+
+Light intensity/low intensity: Pace greater than 20 minutes per mile
+Moderate intensity: pace between 16 and 20 minutes per mile
+Medium intensity: Pace between 12 and 15 minutes per mile
+Vigorous Intensity: Pace less than 12 minutes per mile
+
+When buying sports underwear, women may encounter choices about the strength of their sports underwear. You can use the intensity of running exercise as a reference.
+
+*Note: The source of the metrics is https://www.verywellfit.com/; there are many different metrics, of which the above is just one.
+";
+
+
+"paceMinUnit" = "′";
+"paceSecUnit" = "″";
+"perper" = "per";
 // 用户偏好设置 距离单位
 /*
 "userPreferenceDistanceUnit" = "Running Distance Unit";
@@ -87,12 +115,12 @@ You may need to know your pace when registering for an event or race such as a 5
 "cancelcancel" = "Cancel";
 "selectDateRange" = "Select Date Range";
 "selectDate" = "Select Date";
-"dateLastWeek" = "Last Week";
+"dateLastWeek" = "Recent Week";
 "dateToday" = "Today";
-"dateLastMonth" = "Last Month";
+"dateLastMonth" = "Recent Month";
 "dateYesterday" = "Yesterday";
 "dateTomorrow" = "Tomorrow";
-
+"dateThisYear" = "Recent Year";
 /*设置*/
 // 标题
 "headerPersonalInfomation" = "Personal Infomation";
@@ -166,9 +194,9 @@ You may need to know your pace when registering for an event or race such as a 5
 "getWorkoutData" = "Workout Data";
 
 
-"monthlyStat" = "Monthly";
+"monthlyStat" = "Summary";
 
-"yearlyStat" = "Yearly";
+"yearlyStat" = "Statistical Reports";
 
 "cicleProgressHint" = " completed, go for it!";
 
@@ -184,3 +212,148 @@ You may need to know your pace when registering for an event or race such as a 5
 "noRunRecordsP0" = "No running training in ";
 
 "noRunRecordsP1" = "";
+
+
+//
+
+"runningFeelingTitle" = "Post-run Reflections";
+
+
+"noRunToday" = "No running training";
+
+
+
+
+"sectionTitle1" = "Statistics";
+"sectionTitle2" = "Log";
+"sectionTitle3" = "Plan";
+"runningMonthTarget" = "Monthly Running Distance";
+
+"monthTargetUnit" = "Modify distance step";
+
+"monTargetUnitHintInKM" = "Unit: KM, you can change the distance unit in the settings.";
+
+"monTargetUnitHintInMile" = "Unit: Miles, you can change the distance unit in the settings.";
+
+//"canNotReduce" = "Can not be reduced!!😥";
+"modifymodify" = "Modify";
+
+"runningDayTarget" = "Target";
+
+"modifyDayTarget" = "Modify Target";
+
+"addDayTarget" = "Add Target";
+"accDistanceString" = "Accumulated Distance";
+
+//"detailInfo" = "Running Distance Details";
+//"classificationDistance" = "Running Distance Classification";
+"detailInfo" = "Distance Details";
+"classificationDistance" = "Distance Classification";
+
+
+// 类型二
+"avgPowerTitle" = "Avg. Power";
+"powerDetailInfo" = "Running Power Details";
+"powerUnit" = "w";
+
+
+// MARK: - AI Function Table Cell
+"SquatCounter" = "Squat Counter";
+"poseMatching" = "Pose Matching";
+"startstart" = "Start";
+"stopstop" = "Stop";
+"runningDataSource" = "Running Data Source: ";
+
+
+"avgCadenceTitle" = "Avg. Cadence";
+"cadenceUnit" = "SPM";
+"cadenceDetailInfo" = "Running Cadence Details";
+
+
+
+"avgPaceTitle" = "Avg. Pace";
+
+"paceDetailInfo" = "Running Pace Details";
+
+
+"totalDistance_v0001" = "Total Distance";
+
+
+"savesave" = "Save";
+
+"avgDisPerRun" = "Avg. Distance per Run";
+"avgTimePerRun" = "Avg. Time per Run";
+"runningTypeSelection" = "选择跑步类型";
+"runningTypeLong" = "长跑";
+"runningTypeMedium" = "中长跑";
+"runningTypeShort" = "短跑";
+"runningTypeIntervals" = "间歇跑";
+"runningTypeFartlek" = "法特兰克跑";
+"runningTypeOutdoor" = "越野跑";
+"runningTypeBase" = "基础跑";
+"runningTypeTempo" = "节奏跑";
+"runningTypeRelax" = "轻松跑";
+
+
+
+"DailyPlanTitle" = "Daily Plan";
+
+
+
+
+"part_1_0_title" = "Running Distance";
+"part_1_1_title" = "Running Type";
+"part_1_2_title" = "Running Feeling";
+"part_2_0_title" = "Pre-run Warm-up/Stretching";
+"part_2_1_title" = "Post-run Stretching";
+"part_3_0_title" = "Running Journal";
+"deleteRecord" = "Delete This Record";
+
+
+"confirmDelete" = "Confirm to delete this record";
+
+"yesAction" = "Confirm👌";
+"noAction" = "No😅";
+
+
+"thisMonthNoRunHint" = "No Running Records🏃🏃‍♀️";
+
+
+
+"NoPlanToday" = "---";
+"avgHRTitle" = "Avg. HR";
+
+"HR_unit" = "BPM";
+
+"HR_DetailInfo" = "Heart Rate Details";
+
+"yourHRZone" = "Your Heart Rate Zone";
+
+"avgEnergyTitle" = "Avg. Active Kilocalories";
+"avgEnergyDetail" = "Active Kilocalories Details";
+"energyUnit" = "KCAL";
+"cumuKCAL" = "Cumulative Kilocalorie";
+
+"hrType0_zone0" = "Warm Up";
+"hrType0_zone1" =  "Fat Burn";
+"hrType0_zone2" = "Aerobic";
+"hrType0_zone3" = "Anaerobic";
+"hrType0_zone4" = "VO2 Max";
+
+"HR_hr" = "Heart Rate";
+
+
+"hrUnit" = "BPM";
+
+"dateHint" = "Open Health App
+Sharing → App → Open → Date of Birth";
+
+"dayUnit" = "D";
+"AIFunctionTitle" = "AI Motion Lab";
+
+// 跑步配速的几个分类
+"pace_c0" = "Very Fast";
+"pace_c1" = "Fast";
+"pace_c2" = "Medium";
+"pace_c3" = "Slow";
+"pace_c4" = "Very Slow";

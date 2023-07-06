@@ -25,13 +25,19 @@ class BodyInfo: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        
+        if HKHealthStore.isHealthDataAvailable() {
+            self.authorizeHK()
+        }
+        
+        
+        
     }
     
     @IBAction func synHealthDataBtnPressed(_ sender: UIButton) {
-        
-        self.authorizeHK()
-        
-        
+        self.synHealthDataButton.isUserInteractionEnabled = false
     }
     
     
@@ -51,16 +57,12 @@ class BodyInfo: UIViewController {
               print("HealthKit Successfully Authorized.")
             
             UserDefaults.standard.set(true, forKey: "ShowRunningOverviewChart")
-            DispatchQueue.main.async {
-                self.synHealthDataButton.isUserInteractionEnabled = false
-//                self.loadAge()
-//                self.loadAndDisplayMostRecentHeight()
-//                self.updateLabel()
-            }
             
         }
         
     }
+    
+    
     func loadAge() {
         let healthKitStore = HKHealthStore()
         do {
@@ -76,7 +78,6 @@ class BodyInfo: UIViewController {
                 let thisYear = todayDateComponents.year!
                 let age = thisYear - birthdayComponents.year!
                 
-//                self.indicatorValLabel[0].text = "\(age)"
             }catch {
                 
             }

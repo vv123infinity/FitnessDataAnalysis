@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AIMotionLabArray</key>
+	<array>
+		<string>深蹲计数器</string>
+		<string>姿势匹配</string>
+		<string>异常姿态检测</string>
+	</array>
+	<key>ToolListItemTitle</key>
+	<array>
+		<string>配速计算器</string>
+		<string>AI运动实验室</string>
+	</array>
+	<key>ToolListItemDetail</key>
+	<array>
+		<string>计算您在马拉松、半程马拉松、10K等不同距离的跑步中的配速，多种配速单位可供选择。</string>
+		<string>预测和匹配您的姿势，提供深蹲计数器。</string>
+	</array>
+</dict>
+</plist>

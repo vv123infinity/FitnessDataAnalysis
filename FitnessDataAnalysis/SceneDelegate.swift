@@ -25,21 +25,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         
         if !UserDefaults.isFirstLaunch() {
-            if let windowScene = scene as? UIWindowScene {
-
-                let window = UIWindow(windowScene: windowScene)
-                let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-                
+//            if let windowScene = scene as? UIWindowScene {
+//
+//                let window = UIWindow(windowScene: windowScene)
+//                let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//
+////                let viewController = mainStoryboard.instantiateViewController(withIdentifier: "RootNav")
+//
 //                let viewController = mainStoryboard.instantiateViewController(withIdentifier: "RootNav")
-                
-                let viewController = mainStoryboard.instantiateViewController(withIdentifier: "RootNav")
-                
-
-                window.rootViewController = viewController
-
-                self.window = window
-                window.makeKeyAndVisible()
-            }
+//
+//
+//                window.rootViewController = viewController
+//
+//                self.window = window
+//                window.makeKeyAndVisible()
+//            }
         }
         else {
             if let windowScene = scene as? UIWindowScene {
@@ -48,14 +48,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                 
                 
-                let viewController = mainStoryboard.instantiateViewController(withIdentifier: "WelcomeNav")
-//                let navigation = UINavigationController(rootViewController: viewController)
-                window.rootViewController = viewController
+                let viewController = mainStoryboard.instantiateViewController(withIdentifier: "AboutPrivacyViewController")
+                // WelcomeNav
+                //AboutPrivacyViewController
+                let navigation = UINavigationController(rootViewController: viewController)
+                navigation.setNavigationBarHidden(true, animated: false)
+                let backItem = UIBarButtonItem()
+                backItem.title = ""
+                navigation.navigationItem.backBarButtonItem = backItem
+                window.rootViewController = navigation
 
                 self.window = window
                 window.makeKeyAndVisible()
             }
         }
+        
+        
+        
+        
         if UserDefaults.standard.bool(forKey: "useSmiley") {
             UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor:  ColorUtil.getBarBtnColor(), NSAttributedString.Key.font: SmileyFontSize.getNormal()], for: UIControl.State.normal)
 

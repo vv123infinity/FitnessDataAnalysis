@@ -20,6 +20,7 @@ class StartUse: UIViewController {
         backItem.title = ""
         self.navigationItem.backBarButtonItem = backItem // This will
         
+        UserDefaults.standard.set(true, forKey: "startUse")
     }
     
 
@@ -36,7 +37,7 @@ class StartUse: UIViewController {
         DispatchQueue.main.async {
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             
-            let viewController = mainStoryboard.instantiateViewController(withIdentifier: "RootViewController")
+            let viewController = mainStoryboard.instantiateViewController(withIdentifier: "RootTabBar")
 
             self.navigationController?.pushViewController(viewController, animated: true)
             

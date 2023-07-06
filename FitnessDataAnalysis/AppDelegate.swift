@@ -7,7 +7,8 @@
 
 import UIKit
 import CoreData
-import AuthenticationServices
+import HealthKit
+
 
 
 @main
@@ -15,10 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        // 1. 设置tab的高亮色
-//        let window = UIWindow()
+        // MARK: - 设置tab的高亮色
         if UserDefaults.standard.bool(forKey: "useSmiley") {
             UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor:  ColorUtil.getBarBtnColor(), NSAttributedString.Key.font: SmileyFontSize.getNormal()], for: UIControl.State.normal)
 
@@ -27,34 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
 
-        
         UITabBar.appearance().tintColor = ColorUtil.getGeneralTintColorStyle1()
-//        let appleIDProvider = ASAuthorizationAppleIDProvider()
-//        appleIDProvider.getCredentialState(forUserID: KeychainItem.currentUserIdentifier) { (credentialState, error) in
-//            switch credentialState {
-//            case .authorized:
-//                print("It's ok! bro")
-//                break // The Apple ID credential is valid.
-//            case .revoked, .notFound:
-//                print("糟糕糟糕OMG")
-//                // The Apple ID credential is either revoked or was not found, so show the sign-in UI.
-//            default:
-//                break
-//            }
-//        }
 
-
+        // MARK: - BK Delivery
         
-//        let seenTutorial = UserDefaults.standard.bool(forKey: "SEEN-TUTORIAL")
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let navigationController = storyboard.instantiateInitialViewController() as! UINavigationController
-//        let rootViewController = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as UIViewController
-//        navigationController.viewControllers = [rootViewController]
-//        self.window?.rootViewController = rootViewController
         
-//        let rootViewController = seenTutorial ? RootViewController() : WelcomeViewController()
-//        let bounds = UIScreen.main.bounds
-
         return true
     }
     

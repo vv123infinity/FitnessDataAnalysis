@@ -30,7 +30,7 @@
 "gkM-1g-M9s.title" = "Running Overview";
 
 /* Class = "UINavigationItem"; title = "Fitness Data Analysis"; ObjectID = "uJw-FP-UWa"; */
-"uJw-FP-UWa.title" = "Running Overview";
+"uJw-FP-UWa.title" = "Overview";
 
 /* Class = "UIButton"; configuration.title = "Test Sign In with Apple"; ObjectID = "vma-Hw-eIE"; */
 "vma-Hw-eIE.configuration.title" = "Test Sign In with Apple";
@@ -101,11 +101,11 @@
 
 //MARK: - 数据统计Overview
 // 各项指标
-"Zww-er-Ezm.text" = "Accumulated Mileage";
-"4qH-vU-rCJ.text" = "Number of Runs";
+"Zww-er-Ezm.text" = "Distance";
+"4qH-vU-rCJ.text" = "Number of Run";
 
 
-"pvC-0i-xyn.text" = "Average Pace";
+"pvC-0i-xyn.text" = "Avg. Pace";
 "l8f-zf-GpZ.text" = "Accumulated Time";
 
 "JeQ-RL-iHK.text" = "Longest Distance";
@@ -125,18 +125,139 @@
 "ij8-yY-HX3.text" = "Great";
 "wV9-Xi-wrr.configuration.title" = "Agree to Privacy Policy";
 
-"k7x-UL-X2I.configuration.title" = "Get Health Data";
+"k7x-UL-X2I.configuration.title" = "Next";
 "37b-X8-AuH.configuration.title" = "Next";
 "PK3-9h-TjG.configuration.title" = "Next";
 "SeX-H8-4vY.configuration.title" = "Getting Started";
 
 "whd-qX-Ppk.text" = "Welcome to 步步Run心田";
 "ZVb-mk-lrm.configuration.title" = "Skip now";
-"f5H-2I-D7c.text" = "Modify monthly run target";
-
+"trp-ji-zXU.configuration.title" = "Modify monthly run target";
 
 "uHx-lu-ovX.configuration.title" = "Done";
 
-"MAN-t2-CWS.text" = "We take the privacy and security of our users very seriously and it is our responsibility to protect their personal information.This application does not store health data from Health in a persistent manner.
+
+
+
+"sG4-8G-lMk.text" = "Actual Distance";
+"GdL-dU-wSg.text" = "Planned Distance";
+"3vY-lg-Egu.text" = "Running Journal";
+
+
+"61V-EQ-pAA.title" = "Running Journal";
+
+
+"svp-6l-EYg.configuration.title" = "Training Stats";
+"YcU-wP-vBY.configuration.title" = "My Running Journal";
+"nx0-il-paV.configuration.title" = "Monthly Goals";
+"k8c-Bi-blM.configuration.title" = "Daily Plan";
+
+
+"vq1-Nz-mlP.text" = "Distance Step";
+"M8K-p9-0wv.text" = "Distance Step";
+"Lt0-7c-v1V.text" = "Monthly Running Goals";
+"oZl-bd-xG5.text" = "Can not be reduced!!😥";
+
+"eoQ-bs-UqG.text" = "Can not be reduced!!😥";
+
+
+"1xy-4z-jcJ.configuration.title" = "Done";
+
+"Rbq-4H-c8w.text" = "Avg. Power";
+
+"lju-4n-X1D.text" = "Avg. Cadence";
+
+"DVd-b5-puI.configuration.title" = "Modify Date Range";
+
+"8wb-oa-AYn.configuration.subtitle" = "Calculate your pace for different distances of running such as marathon, half marathon, 10K, etc. Multiple pace units to choose from! 😋";
+
+
+"6uR-NB-QDA.configuration.title" = "AI Motion Lab";
+"6uR-NB-QDA.configuration.subtitle" = "Predicts and matches your posture, providing a deep squat counter.";
+"WrG-cj-3jB.text" = "Copy success!";
+
+"LlH-ZT-fvd.text" = "Human activity energy metabolism is the process of producing energy from the oxidation of nutrients caused by human activity, and the energy consumed is called activity energy expenditure.";
+
+
+"MAN-t2-CWS.text" = "We take the privacy and security of our users very seriously and it is our responsibility to protect their personal information.
 
 If you still have concerns, you can disconnect from the network to run this application.";
+
+"cHp-UT-mXL.text" = "Privacy Security";
+
+
+"C4U-ae-Z2c.text" = "Date of Birth";
+
+"h9F-MT-DeC.text" = "For calculating age and heart rate intervals";
+
+"TGF-oQ-E8v.text" = "Height and Weight";
+"c4X-We-Q4h.text" = "For understanding your basic body data and improving the quality of services";
+"wBF-ZN-PAN.text" = "Active Energy and Heart Rate";
+"JjW-da-2hy.text" = "For better analysis of running data analysis";
+"bzK-IL-1za.text" = "Workout";
+"CaR-iy-0si.text" = "Used to obtain running-related data, such as running distance, running power, etc.";
+
+
+
+
+"bem-lX-prI.configuration.title" = "No";
+
+"qxP-Bi-Uen.configuration.title" = "Yes";
+
+"Ool-HP-dJI.text" = "Congratulations! All basic configurations have been completed, now let's explore together~";
+"Qpf-iK-9yE.text" = "Please note that the running power is derived from your outdoor running records. 🏃🏃‍♀️";
+
+
+
+
+"Eea-uI-Gqn.text" = "Avg. Heart Rate";
+"QO1-uK-78G.text" = "Active KCAL";
+
+"u60-Q9-ASD.placeholder" = "Say something briefly...";
+"Bgn-Fb-LS5.configuration.title" = "Save";
+
+
+"d3S-k2-ySl.text" = "Journal Details";
+
+"Vc5-so-SO6.text" = "Monthly Run";
+//
+"hFZ-4r-KyW.text" = "Running Feeling";
+
+"giI-M6-DT6.text" = "Running Type";
+
+"hM2-iu-WBX.text" = "Pre-run Warm-up/Stretching";
+
+"zEX-Iy-n4f.text" = "Post-run Stretching";
+
+
+"JZ2-xl-xdH.configuration.subtitle" = "Great";
+"7Tp-Ol-BrL.configuration.subtitle" = "Average";
+"4U9-Ve-eDx.configuration.subtitle" = "Not so well";
+
+"bUf-Ps-xpH.configuration.title" = "Cancel";
+"dFH-zA-IOx.configuration.title" = "Save";
+
+
+/*
+ 热身区间    Warm Up Zone
+ 燃脂区间    Fat Burn Zone
+ 有氧区间    Aerobic Zone
+ 无氧区间    Anaerobic Zone
+ 极限    VO2 Max Zone
+
+ */
+
+"ghi-AT-T7J.text" = "Open Health App
+Sharing → App → Open All";
+
+
+"79N-Qx-blI.configuration.subtitle" = "Since Last Run";
+
+"ZpD-i6-cyD.configuration.subtitle" = "Since First Run";
+"miJ-6p-4hB.title" = "Tool";
+
+"VBT-Cb-w25.title" = "Pose Matching Demo";
+"Ekh-R8-peN.text" = "Please Stand
+In the Box";
+
+"HE5-Mi-Q7r.title" = "Data Stat";"

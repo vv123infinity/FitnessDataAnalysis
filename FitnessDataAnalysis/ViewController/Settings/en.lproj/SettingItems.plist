@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AboutYouArray</key>
+	<array>
+		<string>Age</string>
+		<string>Height</string>
+		<string>Weight</string>
+	</array>
 	<key>sec0PersonalInfo</key>
 	<string>Personal Infomation</string>
 	<key>sec0PersonalInfoArray</key>
@@ -15,25 +21,70 @@
 		<string>Measurement Units</string>
 		<string>Remember the Last Query</string>
 		<string>Chart Interaction</string>
+		<string>Start date of the week</string>
 	</array>
-	<key>sec2Data</key>
+	<key>sec3Data</key>
 	<string>Data</string>
-	<key>sec2DataArray</key>
+	<key>sec3DataArray</key>
 	<array>
 		<string>Workout Data</string>
 		<string>Data Collection and Usage</string>
 		<string>Privacy and Security</string>
 	</array>
-	<key>sec3Other</key>
+	<key>sec4Other</key>
 	<string>Other</string>
-	<key>sec3OtherArray</key>
+	<key>sec4OtherArray</key>
 	<array>
-		<string>About Us</string>
+		<string>Contact Us</string>
 	</array>
 	<key>generalChoicesList</key>
 	<array>
 		<string>Kilometer (KM)</string>
-		<string>Mile</string>
+		<string>Mile (MI)</string>
+	</array>
+	<key>generalWeekList</key>
+	<array>
+		<string>Monday</string>
+		<string>Sunday</string>
+	</array>
+	<key>AppAppearance</key>
+	<array>
+		<string>Automatic</string>
+		<string>Light Mode</string>
+		<string>Dark Mode</string>
+	</array>
+	<key>TintColorSet</key>
+	<array>
+		<string>Purple</string>
+		<string>Green</string>
+		<string>Blue</string>
+	</array>
+	<key>sec2Run</key>
+	<string>Preferences</string>
+	<key>sec2RunArray</key>
+	<array>
+		<string>Preferred type of running</string>
+		<string>Heart Rate Zone</string>
+		<string>Comprehensive analysis of index selection</string>
+	</array>
+	<key>HRZoneArray</key>
+	<array>
+		<string>Max Heart Rate</string>
+	</array>
+	<key>HRZoneArrayDetails</key>
+	<array>
+		<string>Use your maximum heart rate to determine the heart rate zoning during training without knowing your resting heart rate and your current exercise capacity.</string>
+	</array>
+	<key>ComprehensiveArray</key>
+	<array>
+		<string>距离</string>
+		<string>配速</string>
+		<string>动态千卡</string>
+		<string>体重</string>
+		<string>体脂率</string>
+		<string>平均心率</string>
+		<string>跑步步频</string>
+		<string>跑步功率</string>
 	</array>
 </dict>
 </plist>

@@ -39,7 +39,7 @@ class UseSmiley: UIViewController {
         self.unuseMode.layer.borderWidth = 0
 //        self.unuseMode.layer.shadowOpacity = 0
         
-        UserDefaults.standard.set(true, forKey: "useSmiley")
+        UserDefaults.standard.set(false, forKey: "useSmiley")
         self.useMode.layer.borderWidth = 1.5
         let bc = ColorUtil.dynamicColor(dark: UIColor.white, light: UIColor.black)
         self.useMode.layer.borderColor = bc.cgColor

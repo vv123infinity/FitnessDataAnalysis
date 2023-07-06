@@ -7,12 +7,40 @@
 		<key>FitnessDataAnalysis.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+		<key>MyWatchApp Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>RunningNotificationServiceExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>WatchExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5E59519629CD8BA500F2A6DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E5951A529CD8C1600F2A6DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E9E10AC29A86ACE00318AB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

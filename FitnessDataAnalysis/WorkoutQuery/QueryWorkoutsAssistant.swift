@@ -10,6 +10,7 @@ import UIKit
 
 class QueryWorkoutsAssistant {
     
+
     
     /// 返回跑步距离
     /// - Parameters:
@@ -23,7 +24,7 @@ class QueryWorkoutsAssistant {
 
         for ii in workoutsArray {
             guard let runningDistanceNewVersion = ii.statistics(for: runningType)?.sumQuantity()?.doubleValue(for: .meter()) else {
-                return [0.0]
+                continue
             }
             totalDistance.append(runningDistanceNewVersion)
         }
@@ -213,46 +214,71 @@ class QueryWorkoutsAssistant {
     ///查询最近7天的跑步总距离距离（累计）
     /// - Parameters:
     ///   - workoutsArray: running 类型的Workout数组
-    /// - Returns: 跑步距离，单位米
-    class func getRecentSevenDaysDistance(_ workoutsArray: [HKWorkout]) -> (sevenDays: Double, today: Double) {
-        var today: Double = 0.0
+    /// - Returns: 跑步距离，单位米，不累计
+    /// 两种类型的日期数组
+    class func getRecentSevenDaysDistance(_ workoutsArray: [HKWorkout]) -> (dis: [Double], dateArray: [String], dateInDate: [Date]) {
+        var disArray: [Double] = []
+        var dateArray: [String] = []
+        var dateInDate: [Date] = []
+//        var _: Double = 0.0
         // 1. 获取今天的日期并存储
         let currentDate = Date()
         
-        // 2. 创建Calendar对象，获取一周前的日期
         let calendar = Calendar.current
-        let oneWeekAgo = calendar.date(byAdding: .day, value: -7, to: currentDate)
+        let today = Date()
         
-        // 3. 循环遍历日期数组，并将日期与一周前的日期进行比较。如果日期在一周内，则将其添加到一个新的数组中。
-        let lastWeekWorkouts = workoutsArray.filter { wk in
-            return wk.startDate >= oneWeekAgo! && wk.startDate <= currentDate
+        // 2. 创建Calendar对象，获取本周的开始日期
+        let weekday = calendar.component(.weekday, from: today)
+        var minusVal: Int = 0
+        if UserDefaults.standard.bool(forKey: "weekStartFromMon") {
+            minusVal = 2
+        }
+        else{
+            minusVal = 1
+        }
+        let daysToSubtract = weekday - minusVal
+        var startDate = calendar.date(byAdding: .day, value: -daysToSubtract, to: today)!
+        
+        let comparisonResult = startDate.compare(today)
+        
+        if comparisonResult == .orderedDescending {
+            // 开始日期在今天之后（下个星期一）
+            startDate = calendar.date(byAdding: .day, value: -7, to: startDate)!
         }
         
-        var totalDistance: Double = 0.0
+        
+        let lastWeekWorkouts = workoutsArray.filter { wk in
+            return wk.startDate >= startDate && wk.startDate <= currentDate
+        }
+        
         let runningType = HKQuantityType(.distanceWalkingRunning)
 
         
         for (index, element) in lastWeekWorkouts.enumerated() {
+            // 1. 添加日期
+            dateInDate.append(element.startDate)
             guard let runningDistanceNewVersion = element.statistics(for: runningType)?.sumQuantity()?.doubleValue(for: .meter()) else {
-                return (0.0, 0.0)
+                return ([0.0], [""], [])
             }
             
-            if index == lastWeekWorkouts.count - 1 {
-                if AssistantMethods.getDateInFormatString(element.startDate, "yyyy-MM-dd") != AssistantMethods.getDateInFormatString(currentDate, "yyyy-MM-dd"){
-                    today = 0.0
-                }
-                else {
-                    today = runningDistanceNewVersion
-                }
-
-            }
             
-            totalDistance += runningDistanceNewVersion
+            let df = DateFormatter()
+            df.dateFormat = "dd"
+            // "22", "22"
+            // 1.0 , 0.8
+            
+            if dateArray.count > 0 && dateArray.last! == df.string(from: element.startDate){
+                // 抛弃最后的元素
+                disArray[disArray.count - 1] += runningDistanceNewVersion
+            }
+            else {
+                dateArray.append(df.string(from: element.startDate))
+                disArray.append(runningDistanceNewVersion)
+            }
             
         }
-        
-        
-        return (totalDistance, today)
+
+        return (disArray, dateArray, dateInDate)
     }
     
     
@@ -361,9 +387,22 @@ class QueryWorkoutsAssistant {
         
         var distInUserUnit: [Double] = []
 //        let userPaceUnit = UserDefaults.standard.integer(forKey: "UserRunningDistanceUnit")
-        let runningType = HKQuantityType(.distanceWalkingRunning)
+//        let
+        
+//        let cycleType = HKQuantityType(.distanceCycling)
+        
+        let runningType: HKQuantityType = HKQuantityType(.distanceWalkingRunning)
+        
+//        if UserDefaults.standard.integer(forKey: "analyzeSportType") == 0{
+//            runningType = cycleType
+//        }
+//        else {
+//            runningType = HKQuantityType(.distanceWalkingRunning)
+//        }
+
         
         let paceInDouble: [Double] = workoutsArray.map{ workout in
+            
             guard let runningDistanceNewVersion = workout.statistics(for: runningType)?.sumQuantity()?.doubleValue(for: .meter()) else {
                 return 0.0
             }

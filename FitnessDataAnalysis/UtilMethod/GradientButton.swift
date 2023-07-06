@@ -17,9 +17,10 @@ class ActualGradientButtonRedToBlueCR5: UIButton {
     private lazy var gradientLayer: CAGradientLayer = {
         let l = CAGradientLayer()
         l.frame = self.bounds
-        let color1 = UIColor(red: 255.0/255.0, green: 140.0/255.0, blue: 171.0/255.0, alpha: 1)
-        let color2 = UIColor(red: 40.0/255.0, green: 26.0/255.0, blue: 200.0/255.0, alpha: 1)
-        let colors = [color1, color2]
+//        let color1 = UIColor(red: 255.0/255.0, green: 140.0/255.0, blue: 171.0/255.0, alpha: 1)
+//        let color2 = UIColor(red: 40.0/255.0, green: 26.0/255.0, blue: 200.0/255.0, alpha: 1)
+//        let colors = [color1, color2]
+        let colors = ColorUtil.getGradTextStyle1()
         l.colors = colors.map{$0.cgColor}
         l.startPoint = CGPoint(x: 0.5, y:0)
         l.endPoint = CGPoint(x: 0.5, y: 1)
@@ -30,7 +31,7 @@ class ActualGradientButtonRedToBlueCR5: UIButton {
     
 }
 
-class ActualGradientButtonRedToBlueCR10: UIButton {
+class ActualGradientButtonRedToBlueCR15: UIButton {
 
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -53,13 +54,13 @@ class ActualGradientButtonRedToBlueCR10: UIButton {
 //            UIColor(red: 0.396, green: 0.306, blue: 0.639, alpha: 1),
 //            UIColor(red: 0.918, green: 0.686, blue: 0.784, alpha: 1)
 //            ]
-        let color1 = UIColor(red: 255.0/255.0, green: 140.0/255.0, blue: 171.0/255.0, alpha: 1)
-        let color2 = UIColor(red: 40.0/255.0, green: 26.0/255.0, blue: 200.0/255.0, alpha: 1)
-        let colors = [color1, color2]
+//        let color1 = UIColor(red: 255.0/255.0, green: 140.0/255.0, blue: 171.0/255.0, alpha: 1)
+//        let color2 = UIColor(red: 40.0/255.0, green: 26.0/255.0, blue: 200.0/255.0, alpha: 1)
+        let colors = ColorUtil.getGradTextStyle1()
         l.colors = colors.map{$0.cgColor}
         l.startPoint = CGPoint(x: 0.5, y:0)
         l.endPoint = CGPoint(x: 0.5, y: 1)
-        l.cornerRadius = 10
+        l.cornerRadius = 20
         layer.insertSublayer(l, at: 0)
         return l
     }()
@@ -181,7 +182,7 @@ class ActualGradientGray2: UIButton {
         layer.insertSublayer(l, at: 0)
         return l
     }()
-    
+
     override func draw(_ rect: CGRect) {
            updateLayerProperties()
        }
@@ -209,10 +210,46 @@ class ActualGradientButtonBlueToGreen: UIButton {
         let l = CAGradientLayer()
         l.frame = self.bounds
 
-        let colors = [
-            UIColor(red: 0.204, green: 0.910, blue: 0.620, alpha: 1),
-            UIColor(red: 0.059, green: 0.204, blue: 0.263, alpha: 1)
-            ]
+        let colors = ColorUtil.getAILabGreen()
+
+
+
+        l.colors = colors.map{$0.cgColor}
+        l.startPoint = CGPoint(x: 0, y:0)
+        l.endPoint = CGPoint(x: 1, y: 1)
+        l.cornerRadius = 20
+        layer.insertSublayer(l, at: 0)
+        return l
+    }()
+    
+    override func draw(_ rect: CGRect) {
+        updateLayerProperties()
+    }
+
+    func updateLayerProperties() {
+        self.layer.shadowColor = ColorUtil.dynamicColor(dark: UIColor(red: 1, green: 1, blue: 1, alpha: 0.2), light: UIColor(red: 0, green: 0, blue: 0, alpha: 0.35)).cgColor
+        self.layer.shadowOffset = CGSize(width: 0, height: 3)
+        self.layer.shadowOpacity = 1.0
+        self.layer.shadowRadius = 10.0
+        self.layer.masksToBounds = false
+    }
+}
+
+
+
+
+class ActualGradientButtonBlueToGreenSmall: UIButton{
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        gradientLayer.frame = bounds
+    }
+
+    private lazy var gradientLayer: CAGradientLayer = {
+        let l = CAGradientLayer()
+        l.frame = self.bounds
+
+        let colors = ColorUtil.getAILabGreen()
+
 
 
         l.colors = colors.map{$0.cgColor}
@@ -235,4 +272,5 @@ class ActualGradientButtonBlueToGreen: UIButton {
         self.layer.masksToBounds = false
     }
 }
+
 

@@ -1,0 +1,10 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "A LSTM model for predicting",
+  "MLModelCreatorDefinedKey" : {
+    "com.github.apple.coremltools.version" : "6.2",
+    "com.github.apple.coremltools.source" : "tensorflow==2.12.0"
+  },
+  "MLModelAuthorKey" : "Aubrey Gu",
+  "MLModelLicenseKey" : "MIT"
+}

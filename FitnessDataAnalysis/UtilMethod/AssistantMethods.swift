@@ -6,8 +6,197 @@
 //
 
 import UIKit
+import HealthKit
+
 
 class AssistantMethods {
+    
+    /// Compute the heart rate zone based on the max HR
+    /// 5个区间，6个阈值
+    /// ① MHR = 220 - Age
+    class func getHRZone_MaxHR() -> [Int] {
+        guard let age = loadAge() else {
+            return [0, 0, 0, 0, 0, 0]
+        }
+        // 计算最大心率，公式：
+        // 220 - Age
+        let maxHR: Double = Double(220) - Double(age)
+        
+        let thresholdPortionArray: [Double] = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        let thresholdHRArray = thresholdPortionArray.map{ Int(MonthlyStatMethods.rouding($0 * maxHR)) }
+        return thresholdHRArray
+    }
+    
+    
+    
+    /// Load the age of user
+    class func loadAge() -> Int? {
+        let healthKitStore = HKHealthStore()
+        do {
+            
+            //1. This method throws an error if these data are not available.
+            do {
+                let birthdayComponents = try healthKitStore.dateOfBirthComponents()
+                //2. Use Calendar to calculate age.
+                let today = Date()
+                let calendar = Calendar.current
+                let todayDateComponents = calendar.dateComponents([.year],
+                                                                    from: today)
+                let thisYear = todayDateComponents.year!
+                let age = thisYear - birthdayComponents.year!
+                return age
+            }catch {
+                
+            }
+        }
+        
+        return Int(25)
+    }
+    
+    
+    
+    /// KM -> Mile, input单位KM
+    class func distanceKMtoMile(_ input: Double) -> Double {
+        // 3.048
+        
+        // 左移两位再取整
+        
+        let rawDistanceInMile = (input*1000)*PaceCalculatorMethods.ConvertMeterToPaceunit.toMile.rawValue
+        if rawDistanceInMile*Double(100) - Double(Int(rawDistanceInMile*Double(100))) >= 0.5{
+            return AssistantMethods.convert((rawDistanceInMile*Double(100)+1.0)/100, maxDecimals: 2)
+        }
+        else {
+            return AssistantMethods.convert((rawDistanceInMile*Double(100))/100, maxDecimals: 2)
+        }
+    }
+    
+    
+    /// Mile -> KM, input单位Mile
+    class func distanceMileToKM(_ input: Double) -> Double {
+        let convertConstantMileToKM: Double = 1.609344
+        
+        
+        let rawDistanceInKM = input*convertConstantMileToKM
+        if rawDistanceInKM*Double(100) - Double(Int(rawDistanceInKM*Double(100))) >= 0.5{
+            return AssistantMethods.convert((rawDistanceInKM*Double(100)+1.0)/100, maxDecimals: 2)
+        }
+        else {
+            return AssistantMethods.convert((rawDistanceInKM*Double(100))/100, maxDecimals: 2)
+        }
+        
+    }
+    
+
+    /// 获取线图的宽度
+    class func getLineWidth(_ cc: Int) -> Float{
+        var lineWid: Float = 5
+        
+        if cc <= 10 {
+            lineWid = 3.5
+        }
+        else if cc > 10 && cc <= 30 {
+            lineWid = 3
+        }
+        else if cc > 30 && cc <= 50 {
+            lineWid = 2
+        }
+        else if cc > 50 && cc <= 70 {
+            lineWid = 1.5
+        }
+        else{
+            lineWid = 1
+        }
+        return lineWid
+    }
+    
+
+    class func getThisWeekStartEndDate() -> (start: Date, end: Date) {
+        let calendar = Calendar.current
+        let today = Date()
+        
+        // 获取本周的第一天（星期一）
+        let weekday = calendar.component(.weekday, from: today)
+        var minusVal: Int = 0
+        if UserDefaults.standard.bool(forKey: "weekStartFromMon") {
+            minusVal = 2
+        }
+        else{
+            minusVal = 1
+        }
+        let daysToSubtract = weekday - minusVal
+        var startDate = calendar.date(byAdding: .day, value: -daysToSubtract, to: today)!
+        
+        let comparisonResult = startDate.compare(today)
+        
+        if comparisonResult == .orderedDescending {
+            // 开始日期在今天之后（下个星期一）
+            startDate = calendar.date(byAdding: .day, value: -7, to: startDate)!
+        }
+        
+        
+
+        // 获取本周的最后一天（星期日）
+        let endDate = calendar.date(byAdding: .day, value: 6, to: startDate)!
+        return (startDate, endDate)
+    }
+    
+    // MARK: 最近一周的日期（从星期一开始，默认）
+    class func getThisWeekDate() -> (dd: [String], yyyyMMdd: [String]) {
+        let calendar = Calendar.current
+        let today = Date()
+        
+        // 获取本周的第一天（星期一）
+        let weekday = calendar.component(.weekday, from: today)
+        var minusVal: Int = 0
+        if UserDefaults.standard.bool(forKey: "weekStartFromMon") {
+            minusVal = 2
+        }
+        else{
+            minusVal = 1
+        }
+        let daysToSubtract = weekday - minusVal
+        var startDate = calendar.date(byAdding: .day, value: -daysToSubtract, to: today)!
+        
+        let comparisonResult = startDate.compare(today)
+        
+        if comparisonResult == .orderedDescending {
+            // 开始日期在今天之后（下个星期一）
+            startDate = calendar.date(byAdding: .day, value: -7, to: startDate)!
+        }
+        
+        
+
+        // 获取本周的最后一天（星期日）
+        let endDate = calendar.date(byAdding: .day, value: 6, to: startDate)!
+
+        // 生成本周的日期数组
+        var weekDates: [Date] = []
+        var currentDate = startDate
+        while currentDate <= endDate {
+            weekDates.append(currentDate)
+            currentDate = calendar.date(byAdding: .day, value: 1, to: currentDate)!
+        }
+
+        // 打印本周的日期
+        let dateFormatterdd = DateFormatter()
+        dateFormatterdd.dateFormat = "dd"
+        let dateFormatterfull = DateFormatter()
+        dateFormatterfull.dateFormat = "yyyy-MM-dd"
+        let dateWeekFormatter = DateFormatter()
+        dateWeekFormatter.dateFormat = "EEEE"
+        var ddArr: [String] = []
+        var fullArr: [String] = []
+//        var weekArr: [String] = []  // 星期几的数组
+        
+        for date in weekDates {
+            ddArr.append(dateFormatterdd.string(from: date))
+            fullArr.append(dateFormatterfull.string(from: date) + "\t" + dateWeekFormatter.string(from: date))
+            
+        }
+        
+        return (ddArr, fullArr)
+    }
+
     
     
     // MARK: 保留小数
@@ -171,13 +360,72 @@ class AssistantMethods {
             let between12And15 = distanceData.filter{return $0>=12000 && $0<15000}.count
             return [["<5KM", less5], ["5~7KM", between5And7], ["7~10KM", between7And10], ["10~12KM", between10And12], ["12~15KM", between12And15]]
         }
+        else if maxDistance > 15000 {
+            let less5 = distanceData.filter{return $0<5000}.count
+            let between5And7 = distanceData.filter{return $0>=5000 && $0<7000}.count
+            let between7And12 = distanceData.filter{return $0>=7000 && $0<12000}.count
+            let between12And20 = distanceData.filter{return $0>=12000 && $0<20000}.count
+            let greaterThan20 = distanceData.filter{return $0>=20000}.count
+            
+            return [["<5KM", less5], ["5~7KM", between5And7], ["7~12KM", between7And12], ["12~20KM", between12And20], [">20KM", greaterThan20]]
+        }
         else {
             return [[0]]
         }
         
-        
-        
     }
+    
+    // MARK: - 跑步配速分类
+    /// 返回配速的分类
+    /// - Parameters:
+    ///   - paceArray: 配速的数据数组，类型Double
+    /// - Returns: 返回五个类，非常快，快，中等，慢，非常慢
+    class func classifyRunningPace(_ paceData: [Double]) -> [[Any]] {
+        // TODO: #######################################
+        // TODO: 用户自定义各个区间的阈值
+        // ① 非常快 < 5.0(8.033334)
+        // ② 快 5.0 - 6.0(9,65)
+        // ③ 中等 6.0 - 7.0(11.25)
+        // ④ 慢 7.0 - 8.0(12.866667)
+        // ⑤ 非常慢 > 8.0
+        // 首先获取各个类的名称
+        // TODO: #######################################
+        var className: [String] = []
+        for i in 0..<5 {
+            let keyStr = "pace_c" + "\(i)"
+            className.append(NSLocalizedString(keyStr, comment: ""))
+        }
+        
+        var threshlodInKM: [Double] = []
+        var threshlodInMile: [Double] = []
+        var threshlodArray: [Double] = []
+        var zoneCount: [Int] = [0, 0, 0, 0, 0]
+        
+        if UserDefaults.standard.integer(forKey: "UserRunningDistanceUnit") == 0 {
+            threshlodInKM = [5.0, 6.0, 7.0, 8.0]
+        }
+        else {
+            threshlodInMile = [8.033334, 9.65, 11.25, 12.866667]
+        }
+        
+        threshlodArray = UserDefaults.standard.integer(forKey: "UserRunningDistanceUnit") == 0 ? threshlodInKM: threshlodInMile
+        
+        
+        zoneCount[0] = paceData.filter{$0<threshlodArray[0]}.count
+        zoneCount[1] = paceData.filter{$0>=threshlodArray[0] && $0<threshlodArray[1]}.count
+        zoneCount[2] = paceData.filter{$0>=threshlodArray[1] && $0<threshlodArray[2]}.count
+        zoneCount[3] = paceData.filter{$0>=threshlodArray[2] && $0<threshlodArray[3]}.count
+        zoneCount[4] = paceData.filter{$0>=threshlodArray[3]}.count
+        
+        var result: [[Any]] = []
+        for i in 0..<5 {
+            let temp: [Any] = [className[i], zoneCount[i]]
+            result.append(temp)
+        }
+        return result
+    }
+    
+    
     
     // MARK: 上个月的起始和结束
     /// 默认获取上个月的起始和结束或 用户自定义起始日期

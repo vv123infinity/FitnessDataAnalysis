@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ToolListItemTitle</key>
+	<array>
+		<string>Pace Calculator</string>
+		<string>AI Motion Lab</string>
+	</array>
+	<key>ToolListItemDetail</key>
+	<array>
+		<string>Calculate your pace for different distances of running such as marathon, half marathon, 10K, etc. Multiple pace units to choose from.</string>
+		<string>Predicts and matches your posture, providing a deep squat counter.</string>
+	</array>
+	<key>AIMotionLabArray</key>
+	<array>
+		<string>Squat Counter</string>
+		<string>Pose Matching</string>
+		<string>Abnormal Posture Detection</string>
+	</array>
+</dict>
+</plist>

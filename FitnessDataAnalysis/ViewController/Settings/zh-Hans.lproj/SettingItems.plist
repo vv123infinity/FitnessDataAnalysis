@@ -2,38 +2,89 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AboutYouArray</key>
+	<array>
+		<string>年龄</string>
+		<string>身高</string>
+		<string>体重</string>
+	</array>
 	<key>sec0PersonalInfo</key>
 	<string>个人信息</string>
 	<key>sec0PersonalInfoArray</key>
 	<array>
 		<string>关于你</string>
 	</array>
-	<key>sec3OtherArray</key>
+	<key>sec4OtherArray</key>
 	<array>
-		<string>关于我们</string>
+		<string>联系我们</string>
 	</array>
-	<key>sec3Other</key>
+	<key>sec4Other</key>
 	<string>其他</string>
-	<key>sec2DataArray</key>
+	<key>sec3DataArray</key>
 	<array>
 		<string>同步体能训练数据</string>
 		<string>数据收集及用途</string>
 		<string>隐私与安全</string>
 	</array>
-	<key>sec2Data</key>
+	<key>sec3Data</key>
 	<string>数据</string>
 	<key>sec1GeneralArray</key>
 	<array>
 		<string>测量单位</string>
 		<string>记住上一次查询</string>
 		<string>图表交互</string>
+		<string>本周开始日期</string>
 	</array>
 	<key>sec1General</key>
 	<string>通用</string>
 	<key>generalChoicesList</key>
 	<array>
-		<string>公里 (KM)</string>
-		<string>英里 (Mile)</string>
+		<string>公里</string>
+		<string>英里</string>
+	</array>
+	<key>generalWeekList</key>
+	<array>
+		<string>星期一</string>
+		<string>星期日</string>
+	</array>
+	<key>AppAppearance</key>
+	<array>
+		<string>跟随系统</string>
+		<string>浅色模式</string>
+		<string>深色模式</string>
+	</array>
+	<key>TintColorSet</key>
+	<array>
+		<string>紫色</string>
+		<string>绿色</string>
+		<string>蓝色</string>
+	</array>
+	<key>sec2RunArray</key>
+	<array>
+		<string>跑步首选类型</string>
+		<string>心率区间</string>
+		<string>综合分析指标选择</string>
+	</array>
+	<key>sec2Run</key>
+	<string>偏好设置</string>
+	<key>HRZoneArray</key>
+	<array>
+		<string>最大心率百分比</string>
+	</array>
+	<key>HRZoneArrayDetails</key>
+	<array>
+		<string>用最大心率来确定训练中的心率分区，不需要知道静息心率和您当前的运动能力。</string>
+	</array>
+	<key>ComprehensiveArray</key>
+	<array>
+		<string>距离</string>
+		<string>配速</string>
+		<string>动态千卡</string>
+		<string>体重</string>
+		<string>体脂率</string>
+		<string>平均心率</string>
+		<string>跑步步频</string>
+		<string>跑步功率</string>
 	</array>
 </dict>
 </plist>

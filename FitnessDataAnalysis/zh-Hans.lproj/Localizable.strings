@@ -33,16 +33,46 @@
 "distanceUnitDefaultAb" = "KM";
 
 "pace" = "配速（分）";
-"learnPaceCalcSubTitle1" = "为什么使用配速计算器？";
-"learnPaceCalcSubTitle1Content" = "配速计算器可以帮助你确定走或跑一段距离需要多长时间。追踪你的配速以及它随时间的变化可以帮助你衡量你的表现，看看你的健身努力是否得到了回报。
+"learnPaceCalcSubTitle0" = "为什么使用配速计算器？";
+"learnPaceCalcContent0" = "配速计算器可以帮助您确定步行或跑步某个距离需要多长时间。追踪您的配速和它的变化可以帮助您衡量跑步表现，看看您的努力是否得到了回报。
 
-在报名参加活动或比赛（如5公里、10公里、半程马拉松或马拉松）时，你可能需要知道你的配速。你可以使用我们的速度和距离计算器或自己计算。";
+在报名参加活动或比赛（如5公里、10公里、半程马拉松或马拉松）时，你可能需要知道你的配速。您可以使用我们的速度和距离计算器，或者自己计算一下。";
+
+"learnPaceCalcSubTitle1" = "跑步配速计算器";
+"learnPaceCalcContent1" =  "您的速度是以每英里几分钟或每公里几分钟来表示。这是您步行或跑步1英里或1公里所需的时间。
+
+要计算配速，您需要知道您走过或跑过的距离，以及您走过或跑过的时间。
+
+配速=时间/距离
+
+";
 
 
-"paceMinUnit" = "分";
-"paceSecUnit" = "秒";
+"learnPaceCalcSubTitle2" = "跑步配速分类";
+"paceAnalysis" = "跑步配速分析";
+"learnPaceCalcContent2" =  "运动强度是由单位时间内进行体育活动所需的能量来定义的。
+
+您可以用配速来衡量你的运动强度。例如，配速强度等级可能是这样的：
+
+轻度强度/低强度： 配速大于每英里20分钟
+中等强度1：配速在每英里16到20分钟之间
+中等强度2：配速在每英里12到15分钟之间
+剧烈强度： 配速小于12分钟/英里
+
+女性在购买运动内衣时，可能会遇到对运动内衣强度的选择。您可以以跑步运动强度作为一个参考。
+
+*注：衡量标准来源https://www.verywellfit.com/；有许多不同的衡量标准，上述只是其中之一。
+";
 
 
+
+
+
+//"paceMinUnit" = "分";
+//"paceSecUnit" = "秒";
+"paceMinUnit" = "′";
+"paceSecUnit" = "′′ ";
+"perper" = "每";
 // 用户偏好设置 距离单位
 /*
 "userPreferenceDistanceUnit" = "跑步距离单位";
@@ -78,11 +108,12 @@
 "cancelcancel" = "取消";
 "selectDateRange" = "选择日期范围";
 "selectDate" = "选择日期";
-"dateLastWeek" = "上周";
+"dateLastWeek" = "近一周";
 "dateToday" = "今天";
-"dateLastMonth" = "上个月";
+"dateLastMonth" = "近一个月";
 "dateYesterday" = "昨天";
 "dateTomorrow" = "明天";
+"dateThisYear" = "近一年";
 /*设置标题*/
 //
 "headerPersonalInfomation" = "个人信息";
@@ -148,9 +179,9 @@
 "getWorkoutData" = "同步体能训练";
 
 
-"monthlyStat" = "每月";
+"monthlyStat" = "概要";
 
-"yearlyStat" = "每年";
+"yearlyStat" = "统计报告";
 
 "cicleProgressHint" = "已完成，加油💪🏻";
 
@@ -167,4 +198,156 @@
 
 
 
+
+"runningFeelingTitle" = "新建跑步日志";
+
+"noRunToday" = "---";
+
+"sectionTitle1" = "数据统计";
+"sectionTitle2" = "跑步日志";
+"sectionTitle3" = "制定计划";
+"runningMonthTarget" = "月跑量目标";
+"monthTargetUnit" = "修改距离步长";
+
+
+"monTargetUnitHintInKM" = "单位：公里，你可以在设置中更改距离单位。";
+
+"monTargetUnitHintInMile" = "单位：英里，你可以在设置中更改距离单位。";
+//"canNotReduce" = "不能再减啦！！😥";
+"modifymodify" = "修改";
+"runningDayTarget" = "跑量目标";
+
+"modifyDayTarget" = "修改目标";
+
+"addDayTarget" = "添加目标";
+
+"accDistanceString" = "累计里程";
+
+
+//"detailInfo" = "跑步距离详细信息";
+"detailInfo" = "距离详细信息";
+//"classificationDistance" = "跑步距离分类";
+"classificationDistance" = "距离分类";
+// 类型二
+"avgPowerTitle" = "平均功率";
+"powerDetailInfo" = "跑步功率详细信息";
+"powerUnit" = "瓦";
+
+// MARK: - AI Function Table Cell
+"SquatCounter" = "深蹲计数器";
+"poseMatching" = "姿势匹配";
+
+"startstart" = "开始";
+"stopstop" = "结束";
+
+"runningDataSource" = "跑步数据来源：";
+"avgCadenceTitle" = "平均步频";
+"cadenceUnit" = "步/分";
+"cadenceDetailInfo" = "跑步步频详细信息";
+
+
+"avgPaceTitle" = "平均配速";
+
+"paceDetailInfo" = "跑步配速详细信息";
+
+"totalDistance_v0001" = "总距离";
+
+
+
+"avgDisPerRun" = "平均每次跑步距离";
+"avgTimePerRun" = "平均每次跑步耗时";
+
+"savesave" = "保存";
+// MARK: - 跑步类型
+// "runningType"
+/*
+ 按照距离分有：长跑、中长跑、短跑；按照速度分有：全速跑、变速跑、慢跑；按照不同锻炼目的分有：上坡跑、下坡跑、跨步跑、负重跑、有氧跑、越野跑等。
+ */
+"runningTypeSelection" = "选择跑步类型";
+"runningTypeLong" = "长跑";
+"runningTypeMedium" = "中长跑";
+"runningTypeShort" = "短跑";
+"runningTypeIntervals" = "间歇跑";
+"runningTypeFartlek" = "法特兰克跑";
+"runningTypeOutdoor" = "越野跑";
+"runningTypeBase" = "基础跑";
+"runningTypeTempo" = "节奏跑";
+"runningTypeRelax" = "轻松跑";
+
+
+"DailyPlanTitle" = "每日计划";
+
+
+
+
+
+// MARK: - 跑步详情
+
+
+"part_1_0_title" = "跑步距离";
+"part_1_1_title" = "跑步类型";
+"part_1_2_title" = "跑步感受";
+"part_2_0_title" = "跑前热身/拉伸";
+"part_2_1_title" = "跑后拉伸";
+"part_3_0_title" = "跑步日志";
+
+
+"deleteRecord" = "删除此记录";
+
+
+"confirmDelete" = "确认删除此记录";
+//Confirm to delete this record
+
+"yesAction" = "确认删除👌";
+"noAction" = "点错了😅";
+
+
+//
+"noRunHint" = "---";
+
+"thisMonthNoRunHint" = "本月暂无跑步记录🏃🏃‍♀️";
+
+"avgHRTitle" = "平均心率";
+"NoPlanToday" = "---";
+
+"HR_unit" = "次/分";
+"HR_DetailInfo" = "跑步心率详细信息";
+
+"yourHRZone" = "你的心率区间";
+
+"avgEnergyTitle" = "平均动态千卡";
+"avgEnergyDetail" = "活动千卡详细信息";
+"cumuKCAL" = "累计动态千卡";
+
+"energyUnit" = "千卡";
+"hrType0_zone0" = "热身区间";
+"hrType0_zone1" = "燃脂区间";
+"hrType0_zone2" = "有氧区间";
+"hrType0_zone3" = "无氧区间";
+"hrType0_zone4" = "极限区间";
+
+
+"HR_hr" = "心率";
+"hrUnit" = "次/分";
+"dateHint" =  "打开健康App
+共享→App→打开→出生日期";
+
+
+
+
+"dayUnit" = "天";
+
+
+"AIFunctionTitle" = "AI运动实验室";
+"pace_c0" = "非常快";
+"pace_c1" = "快";
+"pace_c2" = "中等";
+"pace_c3" = "慢";
+"pace_c4" = "非常慢";
+
+
+
+// MARK: - New - - New - - New - - New - - New - - New - - New - - New - - New -
+"noDataHintText" = "无法访问您的跑步体能训练数据，请检查您已授权本应用且进行过跑步训练。";
+"noDataHintFootLabel" = "您可前往设置-同步体能训练数据，以检查您已成功授权。";
 

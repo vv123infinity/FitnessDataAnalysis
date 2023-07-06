@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RunningTypeArray</key>
+	<array>
+		<string>Long Run</string>
+		<string>Middle Distance Run</string>
+		<string>Sprinting</string>
+		<string>Intervals</string>
+		<string>Fartlek</string>
+		<string>Cross Country Running</string>
+		<string>Base Run</string>
+		<string>Tempo Run</string>
+		<string>Easy Run</string>
+	</array>
+</dict>
+</plist>

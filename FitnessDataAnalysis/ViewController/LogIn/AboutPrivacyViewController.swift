@@ -16,8 +16,13 @@ class AboutPrivacyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
-        self.navigationItem.backButtonTitle = ""
+        let backItem = UIBarButtonItem()
+        backItem.title = ""
+        self.navigationItem.backBarButtonItem = backItem
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        UserPreferenceSetting.setUpUserPreference()
+        
     }
     
     

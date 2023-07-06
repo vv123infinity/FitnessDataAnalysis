@@ -39,4 +39,21 @@ struct PoseBuilderConfiguration {
     ///
     /// - Note: This parameter only applies to the multiple-pose algorithm.
     var adjacentJointOffsetRefinementSteps = 3
+    
+    // MARK: - 深蹲的阈值
+    /// 正面简单模式
+    var frontEasyAngleThreshold: CGFloat = 55
+    /// 正面中等模式
+    var frontMediumAngleThreshold: CGFloat = 65
+    /// 正面困难模式
+    var frontHardAngleThreshold: CGFloat = 75
+    
+    /// 侧面简单模式
+    var sideEasyAngleThreshold: CGFloat = 100
+    /// 侧面中等模式
+    var sideMediumAngleThreshold: CGFloat = 110
+    /// 侧困难模式
+    var sideHardAngleThreshold: CGFloat = 120
+    
+    
 }

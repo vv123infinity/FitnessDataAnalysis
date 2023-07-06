@@ -92,6 +92,16 @@ public extension FastisShortcut where Value == FastisRange {
             return FastisRange(from: monthAgo.startOfDay(), to: now.endOfDay())
         }
     }
+    
+    static var thisYear: FastisShortcut {
+        FastisShortcut(name: NSLocalizedString("dateThisYear", comment: "")) {
+            let now = Date()
+            
+            let yearAgo = Calendar.current.date(byAdding: .year, value: -1, to: now)!
+//            let monthAgo = Calendar.current.date(byAdding: .month, value: -1, to: now)!
+            return FastisRange(from: yearAgo.startOfDay(), to: now.endOfDay())
+        }
+    }
 
 }
 

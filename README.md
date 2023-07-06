@@ -33,4 +33,4 @@
 
 ## 视图控制器说明
 
-<a href="https://github.com/vv123infinity/FitnessDataAnalysis/blob/9201bdaddb3c51fd01f72333e99eb5173f2f4bac/FitnessDataAnalysis/ViewController/readMe.md">FitnessDataAnalysis/ViewController/readMe.md</a>描述了视图控制器各代码文件的作用。
+<a href="https://github.com/vv123infinity/FitnessDataAnalysis/blob/bea74a0bd96f60457acd1df6b76a703042cf1e63/FitnessDataAnalysis/ViewController/readMe.md">FitnessDataAnalysis/ViewController/readMe.md</a>描述了视图控制器各代码文件的作用。

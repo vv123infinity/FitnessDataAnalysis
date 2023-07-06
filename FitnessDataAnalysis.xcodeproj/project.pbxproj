@@ -148,6 +148,9 @@
 		795AFE2F2A093A6000A693E1 /* DataStatTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */; };
 		795AFE312A0B229300A693E1 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AFE302A0B229300A693E1 /* CollectionViewController.swift */; };
 		796793A62A56E7D200EFA49F /* testChanges.md in Resources */ = {isa = PBXBuildFile; fileRef = 796793A52A56E7D200EFA49F /* testChanges.md */; };
+		796793A92A56E95700EFA49F /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 796793A82A56E95700EFA49F /* PythonKit */; };
+		796793AC2A56EC3C00EFA49F /* overview.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 796793AB2A56EC3C00EFA49F /* overview.jpeg */; };
+		796793AE2A56EC5900EFA49F /* readMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 796793AD2A56EC5900EFA49F /* readMe.md */; };
 		797313902A2DCB8500486044 /* lstm_dist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7973138F2A2DCB8500486044 /* lstm_dist.mlmodel */; };
 		797313922A2DCCD500486044 /* LSTM_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797313912A2DCCD500486044 /* LSTM_Model.swift */; };
 		7981821F2A2BB51500E8274C /* ComprehensiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7981821E2A2BB51500E8274C /* ComprehensiveVC.swift */; };
@@ -379,6 +382,8 @@
 		795AFE302A0B229300A693E1 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		796793A42A56E71D00EFA49F /* test.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = test.md; sourceTree = "<group>"; };
 		796793A52A56E7D200EFA49F /* testChanges.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = testChanges.md; sourceTree = "<group>"; };
+		796793AB2A56EC3C00EFA49F /* overview.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = overview.jpeg; sourceTree = "<group>"; };
+		796793AD2A56EC5900EFA49F /* readMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readMe.md; sourceTree = "<group>"; };
 		7973138F2A2DCB8500486044 /* lstm_dist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = lstm_dist.mlmodel; sourceTree = "<group>"; };
 		797313912A2DCCD500486044 /* LSTM_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTM_Model.swift; sourceTree = "<group>"; };
 		7981821E2A2BB51500E8274C /* ComprehensiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensiveVC.swift; sourceTree = "<group>"; };
@@ -439,6 +444,7 @@
 				79926C9E2A278F0100D2066C /* SigmaSwiftStatistics in Frameworks */,
 				79C7D39529C75A42001A9DAC /* MKRingProgressView in Frameworks */,
 				5E9E112E29A8A78E00318AB5 /* AAInfographics in Frameworks */,
+				796793A92A56E95700EFA49F /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,6 +790,8 @@
 		5E9E10CB29A8745800318AB5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				796793AD2A56EC5900EFA49F /* readMe.md */,
+				796793AA2A56EC3500EFA49F /* img */,
 				5E9E10B429A86ACE00318AB5 /* RootViewController.swift */,
 				79FDF69E2A4C6D7B000C0C60 /* RootTable.swift */,
 				5E07834C29ADB6A200FFE4AE /* Settings */,
@@ -931,6 +939,14 @@
 				5ECD127229E2A8480081FA0A /* Calendar+Extension.swift */,
 			);
 			path = "Extension+Types";
+			sourceTree = "<group>";
+		};
+		796793AA2A56EC3500EFA49F /* img */ = {
+			isa = PBXGroup;
+			children = (
+				796793AB2A56EC3C00EFA49F /* overview.jpeg */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 		798182222A2C528100E8274C /* KmeansGroup */ = {
@@ -1114,6 +1130,7 @@
 				79C7D39429C75A42001A9DAC /* MKRingProgressView */,
 				79926C9D2A278F0100D2066C /* SigmaSwiftStatistics */,
 				793057BC2A288A60001C59C8 /* DBSCAN */,
+				796793A82A56E95700EFA49F /* PythonKit */,
 			);
 			productName = FitnessDataAnalysis;
 			productReference = 5E9E10AD29A86ACE00318AB5 /* FitnessDataAnalysis.app */;
@@ -1154,6 +1171,7 @@
 			mainGroup = 5E9E10A429A86ACE00318AB5;
 			packageReferences = (
 				5E9E112C29A8A78E00318AB5 /* XCRemoteSwiftPackageReference "AAChartKit-Swift" */,
+				796793A72A56E95700EFA49F /* XCRemoteSwiftPackageReference "PythonKit" */,
 			);
 			productRefGroup = 5E9E10AE29A86ACE00318AB5 /* Products */;
 			projectDirPath = "";
@@ -1201,6 +1219,8 @@
 				79926C9C2A278EDA00D2066C /* SigmaSwiftStatistics-master in Resources */,
 				5E9E10B829A86ACE00318AB5 /* Main.storyboard in Resources */,
 				79C7D39329C75A3C001A9DAC /* MKRingProgressView-master in Resources */,
+				796793AE2A56EC5900EFA49F /* readMe.md in Resources */,
+				796793AC2A56EC3C00EFA49F /* overview.jpeg in Resources */,
 				796793A62A56E7D200EFA49F /* testChanges.md in Resources */,
 				5ED4188C29D7DA4200E2A13D /* humanPoseNormCen.csv in Resources */,
 				5ED14C6229AB5A46002E2DD4 /* InfoPlist.strings in Resources */,
@@ -1809,6 +1829,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		796793A72A56E95700EFA49F /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1824,6 +1852,11 @@
 		793057BC2A288A60001C59C8 /* DBSCAN */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DBSCAN;
+		};
+		796793A82A56E95700EFA49F /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 796793A72A56E95700EFA49F /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
 		};
 		79926C9D2A278F0100D2066C /* SigmaSwiftStatistics */ = {
 			isa = XCSwiftPackageProductDependency;

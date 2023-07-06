@@ -146,8 +146,7 @@
 		7945DA3E2A571C7C0041B868 /* DBSCAN-main in Resources */ = {isa = PBXBuildFile; fileRef = 7945DA3D2A571C7C0041B868 /* DBSCAN-main */; };
 		7945DA402A571D1A0041B868 /* SigmaSwiftStatistics-master in Resources */ = {isa = PBXBuildFile; fileRef = 7945DA3F2A571D190041B868 /* SigmaSwiftStatistics-master */; };
 		7945DA422A571D220041B868 /* SigmaSwiftStatistics in Frameworks */ = {isa = PBXBuildFile; productRef = 7945DA412A571D220041B868 /* SigmaSwiftStatistics */; };
-		7945DA452A5722900041B868 /* dic01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7945DA432A5722900041B868 /* dic01.png */; };
-		7945DA462A5722900041B868 /* overview.png in Resources */ = {isa = PBXBuildFile; fileRef = 7945DA442A5722900041B868 /* overview.png */; };
+		7945DA492A5724AF0041B868 /* overview.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7945DA472A5724AE0041B868 /* overview.jpeg */; };
 		7949CD8C29A8C8930011709E /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949CD8B29A8C8930011709E /* ColorUtil.swift */; };
 		7949CD9029ACF3610011709E /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949CD8F29ACF3610011709E /* GradientButton.swift */; };
 		795AFE2F2A093A6000A693E1 /* DataStatTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */; };
@@ -380,8 +379,7 @@
 		7945DA3B2A5719E20041B868 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/overviewItem.plist"; sourceTree = "<group>"; };
 		7945DA3D2A571C7C0041B868 /* DBSCAN-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "DBSCAN-main"; sourceTree = "<group>"; };
 		7945DA3F2A571D190041B868 /* SigmaSwiftStatistics-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "SigmaSwiftStatistics-master"; sourceTree = "<group>"; };
-		7945DA432A5722900041B868 /* dic01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dic01.png; sourceTree = "<group>"; };
-		7945DA442A5722900041B868 /* overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overview.png; sourceTree = "<group>"; };
+		7945DA472A5724AE0041B868 /* overview.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = overview.jpeg; sourceTree = "<group>"; };
 		7949CD8B29A8C8930011709E /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		7949CD8F29ACF3610011709E /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStatTableCell.swift; sourceTree = "<group>"; };
@@ -977,8 +975,7 @@
 		796793AA2A56EC3500EFA49F /* img */ = {
 			isa = PBXGroup;
 			children = (
-				7945DA432A5722900041B868 /* dic01.png */,
-				7945DA442A5722900041B868 /* overview.png */,
+				7945DA472A5724AE0041B868 /* overview.jpeg */,
 			);
 			path = img;
 			sourceTree = "<group>";
@@ -1241,11 +1238,9 @@
 				7945DA382A5719E10041B868 /* overviewItem.plist in Resources */,
 				5E6956B429DBB913002FD411 /* RunType.plist in Resources */,
 				5EB3978C29C9A080002D20E1 /* SmileySans-Oblique.otf in Resources */,
-				7945DA452A5722900041B868 /* dic01.png in Resources */,
 				7940CE4E29EC32F300404A43 /* RunDataAnalysisIndicator.plist in Resources */,
 				5ED14C5A29AB56D8002E2DD4 /* Localizable.strings in Resources */,
 				79926C912A2776AB00D2066C /* Assistant.storyboard in Resources */,
-				7945DA462A5722900041B868 /* overview.png in Resources */,
 				5E2960C929BF4E9200872259 /* Fastis-master in Resources */,
 				7940CE4629E64FCB00404A43 /* ToolboxPlist.plist in Resources */,
 				5EB3978D29C9A080002D20E1 /* SmileySans-Oblique.ttf in Resources */,
@@ -1254,6 +1249,7 @@
 				5E9E10BD29A86AD100318AB5 /* Assets.xcassets in Resources */,
 				7945DA3E2A571C7C0041B868 /* DBSCAN-main in Resources */,
 				5E9E10B829A86ACE00318AB5 /* Main.storyboard in Resources */,
+				7945DA492A5724AF0041B868 /* overview.jpeg in Resources */,
 				79C7D39329C75A3C001A9DAC /* MKRingProgressView-master in Resources */,
 				7945DA402A571D1A0041B868 /* SigmaSwiftStatistics-master in Resources */,
 				796793AE2A56EC5900EFA49F /* readMe.md in Resources */,

@@ -4,16 +4,12 @@
 
 ## 概要（文件夹`Overview`目录）
 
-<img src="img/dic01.png" style="zoom: 50%;" >
-
-`RootTable.swift` 是APP的主界面对应的视图控制器（也是概要Tab的根视图控制器），作用：
+1. `RootTable.swift` 是APP的主界面对应的视图控制器（也是概要Tab的根视图控制器），作用：
 
 * 控制section1、2和3的UI、显示文字和跳转界面
 * 显示section1的具体数据分析结果
 
----
-
-`overviewItem.plist` 存储需要显示&本地化（翻译）的文本。
+2. `overviewItem.plist` 存储需要显示&本地化（翻译）的文本。
 
 ---
 
@@ -28,7 +24,7 @@
   * 制定计划功能，与push notification组合
   * 
 
-<img src="img/overview.png" style="zoom: 25%;" >
+<img src="img/overview.jpeg" style="zoom: 25%;" >
 
 
 

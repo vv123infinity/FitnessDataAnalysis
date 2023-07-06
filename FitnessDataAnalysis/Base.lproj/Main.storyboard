@@ -354,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8657.2519083969455" y="52.816901408450704"/>
+            <point key="canvasLocation" x="8656" y="51"/>
         </scene>
         <!--Detail Week Plan-->
         <scene sceneID="7mk-oV-0SB">
@@ -6726,7 +6726,7 @@ You may need to know your pace when registering for an event or race such as a 5
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="lF7-yU-liP">
-                            <rect key="frame" x="0.0" y="321.33333587646484" width="393" height="44"/>
+                            <rect key="frame" x="0.0" y="321.33333587646479" width="393" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="就这样吧，没有UI设计。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UI-36-Dzi">
@@ -6862,8 +6862,8 @@ You may need to know your pace when registering for an event or race such as a 5
     </scenes>
     <resources>
         <image name="arrow.down.circle" catalog="system" width="128" height="123"/>
-        <image name="arrow.triangle.2.circlepath.camera" catalog="system" width="128" height="93"/>
         <image name="arrow.triangle.2.circlepath.camera" width="24" height="19.5"/>
+        <image name="arrow.triangle.2.circlepath.camera" catalog="system" width="128" height="93"/>
         <image name="arrow.up" catalog="system" width="118" height="128"/>
         <image name="arrow.up.circle" catalog="system" width="128" height="123"/>
         <image name="calendar" catalog="system" width="128" height="107"/>

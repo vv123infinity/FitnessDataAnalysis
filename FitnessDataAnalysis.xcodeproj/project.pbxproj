@@ -147,6 +147,7 @@
 		7949CD9029ACF3610011709E /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949CD8F29ACF3610011709E /* GradientButton.swift */; };
 		795AFE2F2A093A6000A693E1 /* DataStatTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */; };
 		795AFE312A0B229300A693E1 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AFE302A0B229300A693E1 /* CollectionViewController.swift */; };
+		796793A62A56E7D200EFA49F /* testChanges.md in Resources */ = {isa = PBXBuildFile; fileRef = 796793A52A56E7D200EFA49F /* testChanges.md */; };
 		797313902A2DCB8500486044 /* lstm_dist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7973138F2A2DCB8500486044 /* lstm_dist.mlmodel */; };
 		797313922A2DCCD500486044 /* LSTM_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797313912A2DCCD500486044 /* LSTM_Model.swift */; };
 		7981821F2A2BB51500E8274C /* ComprehensiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7981821E2A2BB51500E8274C /* ComprehensiveVC.swift */; };
@@ -377,6 +378,7 @@
 		795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStatTableCell.swift; sourceTree = "<group>"; };
 		795AFE302A0B229300A693E1 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		796793A42A56E71D00EFA49F /* test.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = test.md; sourceTree = "<group>"; };
+		796793A52A56E7D200EFA49F /* testChanges.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = testChanges.md; sourceTree = "<group>"; };
 		7973138F2A2DCB8500486044 /* lstm_dist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = lstm_dist.mlmodel; sourceTree = "<group>"; };
 		797313912A2DCCD500486044 /* LSTM_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTM_Model.swift; sourceTree = "<group>"; };
 		7981821E2A2BB51500E8274C /* ComprehensiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensiveVC.swift; sourceTree = "<group>"; };
@@ -793,6 +795,7 @@
 				7929DC3529BA19DE006C5293 /* LogIn */,
 				5E07834F29AF34D200FFE4AE /* TestVC */,
 				796793A42A56E71D00EFA49F /* test.md */,
+				796793A52A56E7D200EFA49F /* testChanges.md */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1198,6 +1201,7 @@
 				79926C9C2A278EDA00D2066C /* SigmaSwiftStatistics-master in Resources */,
 				5E9E10B829A86ACE00318AB5 /* Main.storyboard in Resources */,
 				79C7D39329C75A3C001A9DAC /* MKRingProgressView-master in Resources */,
+				796793A62A56E7D200EFA49F /* testChanges.md in Resources */,
 				5ED4188C29D7DA4200E2A13D /* humanPoseNormCen.csv in Resources */,
 				5ED14C6229AB5A46002E2DD4 /* InfoPlist.strings in Resources */,
 			);

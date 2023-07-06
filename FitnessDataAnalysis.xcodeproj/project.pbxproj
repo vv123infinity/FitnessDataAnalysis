@@ -380,6 +380,7 @@
 		7945DA3D2A571C7C0041B868 /* DBSCAN-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "DBSCAN-main"; sourceTree = "<group>"; };
 		7945DA3F2A571D190041B868 /* SigmaSwiftStatistics-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "SigmaSwiftStatistics-master"; sourceTree = "<group>"; };
 		7945DA472A5724AE0041B868 /* overview.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = overview.jpeg; sourceTree = "<group>"; };
+		7945DA4E2A573EDE0041B868 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7949CD8B29A8C8930011709E /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		7949CD8F29ACF3610011709E /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStatTableCell.swift; sourceTree = "<group>"; };
@@ -731,6 +732,7 @@
 		5E9E10A429A86ACE00318AB5 = {
 			isa = PBXGroup;
 			children = (
+				7945DA4E2A573EDE0041B868 /* README.md */,
 				5E59518E29CD8AA200F2A6DD /* UITests */,
 				5E4E9FF229B9915D0066D83C /* Packages */,
 				5E9E10AF29A86ACE00318AB5 /* FitnessDataAnalysis */,

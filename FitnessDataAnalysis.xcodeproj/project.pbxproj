@@ -376,6 +376,7 @@
 		7949CD8F29ACF3610011709E /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStatTableCell.swift; sourceTree = "<group>"; };
 		795AFE302A0B229300A693E1 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		796793A42A56E71D00EFA49F /* test.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = test.md; sourceTree = "<group>"; };
 		7973138F2A2DCB8500486044 /* lstm_dist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = lstm_dist.mlmodel; sourceTree = "<group>"; };
 		797313912A2DCCD500486044 /* LSTM_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTM_Model.swift; sourceTree = "<group>"; };
 		7981821E2A2BB51500E8274C /* ComprehensiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensiveVC.swift; sourceTree = "<group>"; };
@@ -791,6 +792,7 @@
 				79D359EF29CAAB7C0051A296 /* UserPreferenceSettingVC */,
 				7929DC3529BA19DE006C5293 /* LogIn */,
 				5E07834F29AF34D200FFE4AE /* TestVC */,
+				796793A42A56E71D00EFA49F /* test.md */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";

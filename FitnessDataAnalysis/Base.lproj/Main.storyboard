@@ -354,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8656" y="51"/>
+            <point key="canvasLocation" x="10509.16030534351" y="50.70422535211268"/>
         </scene>
         <!--Detail Week Plan-->
         <scene sceneID="7mk-oV-0SB">
@@ -542,7 +542,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AAY-h5-iCM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12096.946564885495" y="50.70422535211268"/>
+            <point key="canvasLocation" x="13948.854961832061" y="50.70422535211268"/>
         </scene>
         <!--Days Details-->
         <scene sceneID="vLG-QK-LD3">
@@ -596,7 +596,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ekd-M1-nhH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12716.79389312977" y="66.901408450704224"/>
+            <point key="canvasLocation" x="14570.229007633587" y="66.901408450704224"/>
         </scene>
         <!--个人信息收集清单-->
         <scene sceneID="QEr-Rv-b7r">
@@ -1004,7 +1004,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duk-Xh-Bbl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8656" y="49"/>
+            <point key="canvasLocation" x="10509.16030534351" y="48.591549295774648"/>
         </scene>
         <!--Settings-->
         <scene sceneID="cbh-uk-QRU">
@@ -1682,7 +1682,7 @@ You may need to know your pace when registering for an event or race such as a 5
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xJA-Mh-ZmC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11177.862595419847" y="52.816901408450704"/>
+            <point key="canvasLocation" x="13031.297709923663" y="52.816901408450704"/>
         </scene>
         <!--Tool-->
         <scene sceneID="9bb-tW-tan">
@@ -3151,7 +3151,7 @@ If you still have concerns, you can disconnect from the network to run this appl
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BgD-tK-rFy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10921.374045801525" y="50.70422535211268"/>
+            <point key="canvasLocation" x="12771.755725190838" y="50.70422535211268"/>
         </scene>
         <!--Yearly Stat-->
         <scene sceneID="nRE-Da-1rR">
@@ -3216,7 +3216,7 @@ LSTM &amp; LSTM updating ...
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vgx-5N-YdO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13486.259541984733" y="60.563380281690144"/>
+            <point key="canvasLocation" x="15339.694656488549" y="60.563380281690144"/>
         </scene>
         <!--我的跑步日志-->
         <scene sceneID="8iX-hD-sDm">
@@ -3289,7 +3289,7 @@ LSTM &amp; LSTM updating ...
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lvs-5q-EVi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13573.282442748092" y="60.563380281690144"/>
+            <point key="canvasLocation" x="15426.717557251908" y="60.563380281690144"/>
         </scene>
         <!--Run Info Details-->
         <scene sceneID="LTg-GM-rpa">
@@ -3392,7 +3392,7 @@ LSTM &amp; LSTM updating ...
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qvM-ie-YQM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14241.984732824427" y="52.816901408450704"/>
+            <point key="canvasLocation" x="16095.419847328243" y="52.816901408450704"/>
         </scene>
         <!--Run Feeling-->
         <scene sceneID="dGB-7m-k9e">
@@ -3657,7 +3657,7 @@ LSTM &amp; LSTM updating ...
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="11145.801526717556" y="48.591549295774648"/>
+            <point key="canvasLocation" x="12996.183206106869" y="48.591549295774648"/>
         </scene>
         <!--Hello-->
         <scene sceneID="jne-Ho-b5F">
@@ -3735,7 +3735,7 @@ LSTM &amp; LSTM updating ...
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YIO-UK-wOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10864.885496183206" y="48.591549295774648"/>
+            <point key="canvasLocation" x="12718.320610687022" y="48.591549295774648"/>
         </scene>
         <!--数据统计-->
         <scene sceneID="Z0C-Zd-2pN">
@@ -3885,7 +3885,7 @@ LSTM &amp; LSTM updating ...
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1C0-2O-jQH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11145.801526717556" y="60.563380281690144"/>
+            <point key="canvasLocation" x="12996.183206106869" y="60.563380281690144"/>
         </scene>
         <!--2023-09-09至2023-09-09-->
         <scene sceneID="HLp-kC-gfb">
@@ -4077,7 +4077,7 @@ LSTM &amp; LSTM updating ...
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eER-fe-hMG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8656" y="44"/>
+            <point key="canvasLocation" x="10509.16030534351" y="43.661971830985919"/>
         </scene>
         <!--Plot Style1-->
         <scene sceneID="t5p-NH-zpX">
@@ -4507,7 +4507,7 @@ LSTM &amp; LSTM updating ...
                     </constraints>
                 </view>
             </objects>
-            <point key="canvasLocation" x="9795" y="44"/>
+            <point key="canvasLocation" x="11646.564885496182" y="43.661971830985919"/>
         </scene>
         <!--Pace Analysis Table-->
         <scene sceneID="D3K-hT-Sb9">
@@ -4624,7 +4624,7 @@ LSTM &amp; LSTM updating ...
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBE-pc-gAG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9858.7786259541972" y="48.591549295774648"/>
+            <point key="canvasLocation" x="11709.16030534351" y="48.591549295774648"/>
         </scene>
         <!--DBSCANVC-->
         <scene sceneID="ZZv-6Y-Bs1">
@@ -4639,7 +4639,7 @@ LSTM &amp; LSTM updating ...
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QvM-Cr-AOf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9819.0839694656479" y="43.661971830985919"/>
+            <point key="canvasLocation" x="11670.992366412213" y="43.661971830985919"/>
         </scene>
         <!--Use Smiley-->
         <scene sceneID="Un4-vZ-sev">
@@ -4953,7 +4953,7 @@ LSTM &amp; LSTM updating ...
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lLc-5y-MSJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Qrf-Uk-z1b"/>
             </objects>
-            <point key="canvasLocation" x="10190.076335877862" y="48.591549295774648"/>
+            <point key="canvasLocation" x="12043.511450381679" y="48.591549295774648"/>
         </scene>
         <!--Make Day Plan-->
         <scene sceneID="Yxa-nT-hqt">
@@ -5115,7 +5115,7 @@ LSTM &amp; LSTM updating ...
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XPj-vb-9FS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="2xK-LQ-FM8"/>
             </objects>
-            <point key="canvasLocation" x="14764.12213740458" y="60.563380281690144"/>
+            <point key="canvasLocation" x="16617.557251908398" y="60.563380281690144"/>
         </scene>
         <!--Plot Style1-->
         <scene sceneID="CEo-XP-v80">
@@ -5468,7 +5468,7 @@ LSTM &amp; LSTM updating ...
                     </constraints>
                 </view>
             </objects>
-            <point key="canvasLocation" x="12432.824427480915" y="48.591549295774648"/>
+            <point key="canvasLocation" x="14286.259541984733" y="48.591549295774648"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8K0-QY-zA0">
@@ -6675,7 +6675,7 @@ You may need to know your pace when registering for an event or race such as a 5
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEx-HM-Gct" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11142.748091603053" y="48.591549295774648"/>
+            <point key="canvasLocation" x="12996.183206106869" y="48.591549295774648"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="YHC-gp-VIK">
@@ -6726,7 +6726,7 @@ You may need to know your pace when registering for an event or race such as a 5
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="lF7-yU-liP">
-                            <rect key="frame" x="0.0" y="321.33333587646479" width="393" height="44"/>
+                            <rect key="frame" x="0.0" y="321.33333587646484" width="393" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="就这样吧，没有UI设计。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UI-36-Dzi">
@@ -6785,6 +6785,60 @@ You may need to know your pace when registering for an event or race such as a 5
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zq3-ec-mIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7043.5114503816794" y="52.816901408450704"/>
+        </scene>
+        <!--Data Viz Table-->
+        <scene sceneID="387-HT-4lI">
+            <objects>
+                <tableViewController storyboardIdentifier="DataVizTable" hidesBottomBarWhenPushed="YES" id="BxD-Xq-l44" customClass="DataVizTable" customModule="FitnessDataAnalysis" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="k00-Y6-LLf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteID" id="oc8-0J-PLi">
+                                <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oc8-0J-PLi" id="96a-4i-9JU">
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PerfomanceID" id="B9R-KZ-5A3">
+                                <rect key="frame" x="20" y="99" width="353" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="B9R-KZ-5A3" id="qJx-tu-3Mb">
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RunningID" id="ZU7-V3-oxH">
+                                <rect key="frame" x="20" y="142.66666793823242" width="353" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZU7-V3-oxH" id="3gA-bL-PEB">
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BxD-Xq-l44" id="uxy-IN-Aog"/>
+                            <outlet property="delegate" destination="BxD-Xq-l44" id="Jxx-fv-vsB"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="eml-EJ-uPI">
+                        <barButtonItem key="rightBarButtonItem" title="修改日期" id="l0F-ti-eKH">
+                            <connections>
+                                <action selector="datePickerBtnPressed:" destination="BxD-Xq-l44" id="ksV-x0-SsL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="datePickerBtn" destination="l0F-ti-eKH" id="Jrm-fj-VR7"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z28-z7-rM3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7753" y="49"/>
         </scene>
         <!--设置-->
         <scene sceneID="Lh6-0Z-Trv">
@@ -6858,6 +6912,100 @@ You may need to know your pace when registering for an event or race such as a 5
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wzD-UX-qWD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8973" y="-639"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ymp-Bn-5at">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gir-Cl-wRB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LuI-q4-i5X">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BxD-Xq-l44" kind="relationship" relationship="rootViewController" id="blS-hy-N7m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PBv-Zt-5k6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7990" y="49"/>
+        </scene>
+        <!--数据统计的起始和结束日期-->
+        <scene sceneID="LX7-mQ-YNI">
+            <objects>
+                <viewController storyboardIdentifier="DatePickerVC" id="IYF-Yf-uWj" customClass="DatePickerVC" customModule="FitnessDataAnalysis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pym-rC-4sn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="起始日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JM4-JE-1Bp">
+                                <rect key="frame" x="16" y="153" width="70" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="RYT-yG-dOh">
+                                <rect key="frame" x="106" y="133" width="267" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="I7z-t5-RyD"/>
+                                </constraints>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="结束日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igu-c3-oga">
+                                <rect key="frame" x="16" y="213.33333333333334" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="x5j-xY-s4T">
+                                <rect key="frame" x="106" y="194" width="267" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Qlb-C2-Qtz"/>
+                                </constraints>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UMc-fB-Xui"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RYT-yG-dOh" firstAttribute="leading" secondItem="JM4-JE-1Bp" secondAttribute="trailing" constant="20" id="1kW-lY-l9S"/>
+                            <constraint firstItem="JM4-JE-1Bp" firstAttribute="top" secondItem="UMc-fB-Xui" secondAttribute="top" constant="50" id="56e-bz-gXr"/>
+                            <constraint firstItem="JM4-JE-1Bp" firstAttribute="leading" secondItem="UMc-fB-Xui" secondAttribute="leading" constant="16" id="HVf-fo-OIb"/>
+                            <constraint firstItem="Igu-c3-oga" firstAttribute="centerY" secondItem="x5j-xY-s4T" secondAttribute="centerY" id="KNx-DX-LTh"/>
+                            <constraint firstItem="Igu-c3-oga" firstAttribute="leading" secondItem="UMc-fB-Xui" secondAttribute="leading" constant="16" id="M0C-5Y-tIT"/>
+                            <constraint firstItem="Igu-c3-oga" firstAttribute="top" secondItem="JM4-JE-1Bp" secondAttribute="bottom" constant="40" id="MiU-5G-EJq"/>
+                            <constraint firstItem="x5j-xY-s4T" firstAttribute="leading" secondItem="Igu-c3-oga" secondAttribute="trailing" constant="20" id="Ovl-TE-pfn"/>
+                            <constraint firstAttribute="trailing" secondItem="RYT-yG-dOh" secondAttribute="trailing" constant="20" id="dn3-BV-95n"/>
+                            <constraint firstItem="JM4-JE-1Bp" firstAttribute="centerY" secondItem="RYT-yG-dOh" secondAttribute="centerY" id="jTm-Ii-j9w"/>
+                            <constraint firstItem="UMc-fB-Xui" firstAttribute="trailing" secondItem="x5j-xY-s4T" secondAttribute="trailing" constant="20" id="xCr-sQ-a9i"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="数据统计的起始和结束日期" id="ebu-a3-GIF"/>
+                    <connections>
+                        <outletCollection property="datePickerArray" destination="RYT-yG-dOh" collectionClass="NSMutableArray" id="HRn-S4-ODO"/>
+                        <outletCollection property="datePickerArray" destination="x5j-xY-s4T" collectionClass="NSMutableArray" id="Ajv-QW-5ya"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enb-xM-ZQM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8659" y="49"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="H6f-qm-B69">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IgI-9y-doA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ODE-QT-6y5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IYF-Yf-uWj" kind="relationship" relationship="rootViewController" id="X75-LO-2Ts"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kAc-jh-gsc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8641.9847328244268" y="48.591549295774648"/>
         </scene>
     </scenes>
     <resources>

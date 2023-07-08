@@ -152,6 +152,18 @@ class RootTable: UITableViewController {
         
     }
     
+    // MARK: - 控制第二个section的转场
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.section == 1 {
+            // 历史数据可视化
+            if indexPath.row == 0 {
+                let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                let vc = storyBoard.instantiateViewController(withIdentifier: "DataVizTable") as? DataVizTable
+                self.navigationController?.pushViewController(vc!, animated: true)
+            }
+        }
+    }
+    
     
     /*
     // Override to support conditional editing of the table view.

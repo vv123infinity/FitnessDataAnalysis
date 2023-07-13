@@ -357,3 +357,12 @@ Sharing → App → Open → Date of Birth";
 "pace_c2" = "Medium";
 "pace_c3" = "Slow";
 "pace_c4" = "Very Slow";
+
+// MARK: - New - - New - - New - - New - - New - - New - - New - - New - - New -
+"noDataHintText" = "Unable to access your running fitness training data, please check that you have authorized the app and have performed running training.";
+"noDataHintFootLabel" = "You can check that you have successfully authorized it by going to Settings - Synchronize Physical Training Data.";
+
+"noDataTitle" = "Unable to access data";
+"noDataMessage" = "Unable to access your running fitness training data, please check that your iPhone is paired with an Apple Watch and that you have authorized the app and performed running training.";
+"noDataAction" = "OK";
+

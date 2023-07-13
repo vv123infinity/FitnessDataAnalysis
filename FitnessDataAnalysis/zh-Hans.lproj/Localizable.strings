@@ -351,3 +351,6 @@
 "noDataHintText" = "无法访问您的跑步体能训练数据，请检查您已授权本应用且进行过跑步训练。";
 "noDataHintFootLabel" = "您可前往设置-同步体能训练数据，以检查您已成功授权。";
 
+"noDataTitle" = "无法访问数据";
+"noDataMessage" = "无法访问您的跑步体能训练数据，请检查您的iPhone已与Apple Watch配对使用并已授权本应用且进行过跑步训练。";
+"noDataAction" = "OK";

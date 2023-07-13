@@ -151,6 +151,10 @@
 		7945DA572A598CB50041B868 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7945DA562A598CB50041B868 /* DatePickerVC.swift */; };
 		7949CD8C29A8C8930011709E /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949CD8B29A8C8930011709E /* ColorUtil.swift */; };
 		7949CD9029ACF3610011709E /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7949CD8F29ACF3610011709E /* GradientButton.swift */; };
+		79582A012A5ED39D0032F6ED /* utilMethod1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79582A002A5ED39D0032F6ED /* utilMethod1.swift */; };
+		79582A042A5ED7B30032F6ED /* sec2Table.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79582A062A5ED7B30032F6ED /* sec2Table.plist */; };
+		79582A092A5EE1840032F6ED /* DataVisTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79582A082A5EE1840032F6ED /* DataVisTableCell.swift */; };
+		79582A0B2A5EF98A0032F6ED /* DataPlotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79582A0A2A5EF98A0032F6ED /* DataPlotVC.swift */; };
 		795AFE2F2A093A6000A693E1 /* DataStatTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */; };
 		795AFE312A0B229300A693E1 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795AFE302A0B229300A693E1 /* CollectionViewController.swift */; };
 		796793A92A56E95700EFA49F /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 796793A82A56E95700EFA49F /* PythonKit */; };
@@ -387,6 +391,11 @@
 		7945DA562A598CB50041B868 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		7949CD8B29A8C8930011709E /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		7949CD8F29ACF3610011709E /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		79582A002A5ED39D0032F6ED /* utilMethod1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilMethod1.swift; sourceTree = "<group>"; };
+		79582A052A5ED7B30032F6ED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/sec2Table.plist"; sourceTree = "<group>"; };
+		79582A072A5ED7B50032F6ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/sec2Table.plist; sourceTree = "<group>"; };
+		79582A082A5EE1840032F6ED /* DataVisTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVisTableCell.swift; sourceTree = "<group>"; };
+		79582A0A2A5EF98A0032F6ED /* DataPlotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlotVC.swift; sourceTree = "<group>"; };
 		795AFE2E2A093A6000A693E1 /* DataStatTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStatTableCell.swift; sourceTree = "<group>"; };
 		795AFE302A0B229300A693E1 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		796793AD2A56EC5900EFA49F /* readMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readMe.md; sourceTree = "<group>"; };
@@ -796,6 +805,7 @@
 		5E9E10CB29A8745800318AB5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				795829FF2A5ED37D0032F6ED /* UtilMethod */,
 				796793AD2A56EC5900EFA49F /* readMe.md */,
 				7945DA322A5714A20041B868 /* Overview */,
 				796793AA2A56EC3500EFA49F /* img */,
@@ -953,7 +963,6 @@
 			isa = PBXGroup;
 			children = (
 				7945DA4F2A5980FD0041B868 /* HistDataVis */,
-				7945DA4D2A5731490041B868 /* DataAnalysis */,
 			);
 			path = sec2;
 			sourceTree = "<group>";
@@ -965,18 +974,14 @@
 			path = sec3;
 			sourceTree = "<group>";
 		};
-		7945DA4D2A5731490041B868 /* DataAnalysis */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataAnalysis;
-			sourceTree = "<group>";
-		};
 		7945DA4F2A5980FD0041B868 /* HistDataVis */ = {
 			isa = PBXGroup;
 			children = (
 				7945DA542A5989280041B868 /* DataVizTable.swift */,
 				7945DA562A598CB50041B868 /* DatePickerVC.swift */,
+				79582A062A5ED7B30032F6ED /* sec2Table.plist */,
+				79582A082A5EE1840032F6ED /* DataVisTableCell.swift */,
+				79582A0A2A5EF98A0032F6ED /* DataPlotVC.swift */,
 			);
 			path = HistDataVis;
 			sourceTree = "<group>";
@@ -994,6 +999,14 @@
 				5ECD127229E2A8480081FA0A /* Calendar+Extension.swift */,
 			);
 			path = "Extension+Types";
+			sourceTree = "<group>";
+		};
+		795829FF2A5ED37D0032F6ED /* UtilMethod */ = {
+			isa = PBXGroup;
+			children = (
+				79582A002A5ED39D0032F6ED /* utilMethod1.swift */,
+			);
+			path = UtilMethod;
 			sourceTree = "<group>";
 		};
 		796793AA2A56EC3500EFA49F /* img */ = {
@@ -1227,6 +1240,7 @@
 			packageReferences = (
 				5E9E112C29A8A78E00318AB5 /* XCRemoteSwiftPackageReference "AAChartKit-Swift" */,
 				796793A72A56E95700EFA49F /* XCRemoteSwiftPackageReference "PythonKit" */,
+				79582A0C2A5EFF120032F6ED /* XCRemoteSwiftPackageReference "SwiftCharts" */,
 			);
 			productRefGroup = 5E9E10AE29A86ACE00318AB5 /* Products */;
 			projectDirPath = "";
@@ -1276,6 +1290,7 @@
 				7945DA492A5724AF0041B868 /* overview.jpeg in Resources */,
 				79C7D39329C75A3C001A9DAC /* MKRingProgressView-master in Resources */,
 				7945DA402A571D1A0041B868 /* SigmaSwiftStatistics-master in Resources */,
+				79582A042A5ED7B30032F6ED /* sec2Table.plist in Resources */,
 				796793AE2A56EC5900EFA49F /* readMe.md in Resources */,
 				5ED4188C29D7DA4200E2A13D /* humanPoseNormCen.csv in Resources */,
 				5ED14C6229AB5A46002E2DD4 /* InfoPlist.strings in Resources */,
@@ -1375,12 +1390,14 @@
 				5EB3979429C9E494002D20E1 /* MonthlyStatMethods.swift in Sources */,
 				7935CA8C29EFB81900CD04B3 /* getPoses.swift in Sources */,
 				5E24901429CD36A4008D261F /* GetBodyData.swift in Sources */,
+				79582A092A5EE1840032F6ED /* DataVisTableCell.swift in Sources */,
 				5E4E9FD829B367CD0066D83C /* VideoCapture.swift in Sources */,
 				5EB3978F29C9A159002D20E1 /* TestSmile.swift in Sources */,
 				79C7D38E29C6103C001A9DAC /* Ring.swift in Sources */,
 				79D359F129CAABB10051A296 /* Calories.swift in Sources */,
 				5ECF8C5C2A0A6C1B00E9D0A3 /* StatCollection.swift in Sources */,
 				79D359F529CAAE170051A296 /* StartUse.swift in Sources */,
+				79582A012A5ED39D0032F6ED /* utilMethod1.swift in Sources */,
 				795AFE2F2A093A6000A693E1 /* DataStatTableCell.swift in Sources */,
 				79926CA52A28450100D2066C /* AnomalyDetector.swift in Sources */,
 				7935CA9629EFC7C500CD04B3 /* PoseVideoSampling.swift in Sources */,
@@ -1412,6 +1429,7 @@
 				5ECD127329E2A8480081FA0A /* Calendar+Extension.swift in Sources */,
 				5ED83DC229B060E7006A64CC /* ThisMonthRunning.swift in Sources */,
 				79E7105529BF74E70005CB62 /* IndicatorOne.swift in Sources */,
+				79582A0B2A5EF98A0032F6ED /* DataPlotVC.swift in Sources */,
 				7945DA572A598CB50041B868 /* DatePickerVC.swift in Sources */,
 				5E9E113229A9C43F00318AB5 /* AssistantMethods.swift in Sources */,
 				5E8D8CC729D2C8AD00BB3E75 /* CalendarView+Style.swift in Sources */,
@@ -1548,6 +1566,15 @@
 				7945DA3B2A5719E20041B868 /* zh-Hans */,
 			);
 			name = overviewItem.plist;
+			sourceTree = "<group>";
+		};
+		79582A062A5ED7B30032F6ED /* sec2Table.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79582A052A5ED7B30032F6ED /* zh-Hans */,
+				79582A072A5ED7B50032F6ED /* en */,
+			);
+			name = sec2Table.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1765,7 +1792,7 @@
 				CODE_SIGN_ENTITLEMENTS = FitnessDataAnalysis/FitnessDataAnalysis.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = CU5Y298C2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FitnessDataAnalysis/Info.plist;
@@ -1796,7 +1823,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1810,7 +1837,7 @@
 				CODE_SIGN_ENTITLEMENTS = FitnessDataAnalysis/FitnessDataAnalysis.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = CU5Y298C2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FitnessDataAnalysis/Info.plist;
@@ -1841,7 +1868,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1893,6 +1920,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.0;
+			};
+		};
+		79582A0C2A5EFF120032F6ED /* XCRemoteSwiftPackageReference "SwiftCharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanschuetz/SwiftCharts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.5;
 			};
 		};
 		796793A72A56E95700EFA49F /* XCRemoteSwiftPackageReference "PythonKit" */ = {

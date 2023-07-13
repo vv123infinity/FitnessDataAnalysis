@@ -75,7 +75,8 @@ class RootTable: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return [1, self.sec2Content.count, 2][section]
+//        return [1, self.sec2Content.count, 2][section]
+        return [1, 1, 0][section]
     }
 
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -103,9 +104,16 @@ class RootTable: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: self.cellSecID[indexPath.section], for: indexPath)
         var content = cell.defaultContentConfiguration()
         
+        if indexPath.section == 1 {
+            // 显示文本
+            content.text = self.sec2Content[indexPath.row]
+            content.image = UIImage(systemName: self.sec2LogoName[indexPath.row])
+            content.imageProperties.tintColor = UIColor(red: 0.000, green: 0.710, blue: 0.855, alpha: 1)
+        }
+        
         // 未获取数据/数据量为0
         // TODO: - 取消注释这个if !self.dataAuth 和else的注释
-//        if !self.dataAuth {
+        if !self.dataAuth {
             if indexPath.row == 0 && indexPath.section == 0 {
                 content.text = NSLocalizedString("noDataHintText", comment: "")
                 content.secondaryText = "🙁"
@@ -116,17 +124,11 @@ class RootTable: UITableViewController {
                 self.editBtn.isHidden = true
             }
 
-//        }
+        }
         // 可以成功访问数据
-//        else {
-            if indexPath.section == 1 {
-                // 显示文本
-                content.text = self.sec2Content[indexPath.row]
-                content.image = UIImage(systemName: self.sec2LogoName[indexPath.row])
-                content.imageProperties.tintColor = UIColor.blue
-            }
-            
-//        }
+        else {
+            self.footLabel.isHidden = true
+        }
         
         
         cell.contentConfiguration = content
@@ -154,13 +156,33 @@ class RootTable: UITableViewController {
     
     // MARK: - 控制第二个section的转场
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
         if indexPath.section == 1 {
-            // 历史数据可视化
-            if indexPath.row == 0 {
-                let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-                let vc = storyBoard.instantiateViewController(withIdentifier: "DataVizTable") as? DataVizTable
-                self.navigationController?.pushViewController(vc!, animated: true)
+            if self.dataAuth {
+                // 历史数据可视化
+                if indexPath.row == 0 {
+                    let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                    let vc = storyBoard.instantiateViewController(withIdentifier: "DataVizTable") as? DataVizTable
+                    self.navigationController?.pushViewController(vc!, animated: true)
+                }
             }
+
+            else {
+                if indexPath.row == 0 {
+                    let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                    let vc = storyBoard.instantiateViewController(withIdentifier: "DataVizTable") as? DataVizTable
+                    self.navigationController?.pushViewController(vc!, animated: true)
+                }
+                
+                // 用Alert Controller提示用户开启权限
+//                let ac = UIAlertController(title: NSLocalizedString("noDataTitle", comment: ""), message: NSLocalizedString("noDataMessage", comment: ""), preferredStyle: .alert)
+//                let action = UIAlertAction(title: NSLocalizedString("noDataAction", comment: ""), style: .default)
+//                ac.addAction(action)
+//                self.present(ac, animated: true)
+
+            }
+            
+            
         }
     }
     

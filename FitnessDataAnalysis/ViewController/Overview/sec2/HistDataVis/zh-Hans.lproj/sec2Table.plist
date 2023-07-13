@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>runningArray</key>
+	<array>
+		<string>跑步总距离</string>
+		<string>跑步次数</string>
+		<string>平均配速</string>
+		<string>累计时长</string>
+		<string>最远距离</string>
+		<string>最快配速</string>
+		<string>平均心率</string>
+		<string>动态千卡</string>
+		<string>平均跑步功率</string>
+		<string>平均步频</string>
+	</array>
+	<key>basicBodyArray</key>
+	<array>
+		<string>体重</string>
+		<string>最大摄氧量</string>
+		<string>静息心率</string>
+	</array>
+	<key>allSecTitle</key>
+	<array>
+		<string>基础身体数据</string>
+		<string>跑步数据指标</string>
+	</array>
+</dict>
+</plist>

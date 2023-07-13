@@ -4,13 +4,13 @@
 <dict>
 	<key>sec2Array</key>
 	<array>
-		<string>历史数据查询&amp;可视化</string>
+		<string>数据统计与分析</string>
 		<string>数据分析模块</string>
 		<string>模块3</string>
 	</array>
 	<key>sec2LogoName</key>
 	<array>
-		<string>sun.max</string>
+		<string>chart.pie.fill</string>
 		<string>moonphase.first.quarter</string>
 		<string>sun.haze.fill</string>
 	</array>

@@ -15,20 +15,33 @@ class DatePickerVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.initDatePicker()
+        
+        
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+//        if self.datePickerArray[0].date < self.datePickerArray[1].date {
+//            UserDefaults.standard.set(datePickerArray[0].date, forKey: "lastQueryDateStart")
+//            UserDefaults.standard.set(datePickerArray[1].date, forKey: "lastQueryDateEnd")
+//            
+//        }
+        
+    }
+    
+    func initDatePicker() {
+        
         for datePicker in self.datePickerArray {
             datePicker.tintColor = ColorUtil.getBarBtnColor()
         }
+        
+        let dateFormatter4 = DateFormatter()
+        let res = AssistantMethods.getThisMonthStartEndDate(Date.init(), Date.init(), false)
+        
+        self.datePickerArray[0].date = res.startDate
+        self.datePickerArray[1].date = res.endDate
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
